@@ -1,4 +1,4 @@
-\documentclass[100pt,a4paper]{report}
+\documentclass[a4paper]{report}
 
 \usepackage[T1]{fontenc}
 \usepackage[polish]{babel}
@@ -17,52 +17,100 @@
 \usepackage{enumerate}
 \usepackage{multicol}
 \usepackage[strict]{changepage}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+\usepackage{tocloft}
+\usepackage{imakeidx}
+\usepackage{ifthen}
+\usepackage{fancyhdr}
 
-\newgeometry{tmargin=1.3cm, bmargin=1.2cm, lmargin=1.2cm, rmargin=1.2cm}
-\pagestyle{empty}
-\linespread{1.2}
-\setlength{\columnsep}{0.5cm}
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{1}
 
-\newenvironment{song2}[2]
-	{	
-    	\begin{multicols*}{2}
-		[
-			\begin{spacing}{0.6}
-				\section*{\LARGE\centering \MakeUppercase{\textbf{{#1}}}}
-				\subsection*{\Large\centering \textit{\textcolor{gray}{\MakeUppercase{{#2}}}}}
-			\end{spacing}
-		]
-		\Large
-	}
-	{
+\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{--~\thepage~--}
+
+\titleformat{\section}[hang]
+	{\normalfont\bfseries\LARGE\centering}{\thesection}{0pt}{}{}
+\titleformat{\subsection}[hang]
+	{\normalfont\itshape\bfseries\Large\centering\color{gray}}{\thesubsection}{0pt}{\Large}
+\titlespacing*{\section}{0pt}{\baselineskip}{0.1\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.1\baselineskip}{1.5\baselineskip}
+
+\newenvironment{song2kilku}[4]{	
+	\begin{multicols*}{2}[
+		\section{\uppercase{#1}}
+		\ifthenelse{\not\equal{#4}{}}{\subsection{\uppercase{#2} \& \uppercase{#3} \& \uppercase{#4}}
+									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}\index[autorzy]{{#3}!{#1}}\index[autorzy]{{#4}!{#1}}}{
+		\ifthenelse{\not\equal{#3}{}}{\subsection{\uppercase{#2} \& \uppercase{#3}}
+									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}\index[autorzy]{{#3}!{#1}}}{
+		\ifthenelse{\not\equal{#2}{}}{\subsection{\uppercase{#2}}
+									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}}{}}}]
+	\Large
+	}{
 	\end{multicols*}
 	\newpage
     }
     
-\newenvironment{song1}[3]
-	{
-			\begin{spacing}{0.6}
-				\section*{\LARGE\centering \MakeUppercase{\textbf{{#1}}}}
-				\subsection*{\Large\centering \textit{\textcolor{gray}{\MakeUppercase{{#2}}}}}
-			\end{spacing}
-			\vspace{0.8cm}
-			\begin{adjustwidth}{+7em}{+7em}
-			\Large
-			
-	}
-	{
-		\end{adjustwidth}
-		\newpage
-    }    
+\newenvironment{song1kilku}[4]{
+	\section{\uppercase{#1}}
+	\ifthenelse{\not\equal{#4}{}}{\subsection{\uppercase{#2} \& \uppercase{#3} \& \uppercase{#4}}
+									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}\index[autorzy]{{#3}!{#1}}\index[autorzy]{{#4}!{#1}}}{
+	\ifthenelse{\not\equal{#3}{}}{\subsection{\uppercase{#2} \& \uppercase{#3}}
+									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}\index[autorzy]{{#3}!{#1}}}{
+	\ifthenelse{\not\equal{#2}{}}{\subsection{\uppercase{#2}}
+									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}}{}}}
+	\begin{adjustwidth}{+7em}{+7em}
+	\Large
+	}{
+	\end{adjustwidth}
+	\newpage
+    }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{song2}[2]{	
+	\begin{multicols*}{2}[
+		\section{#1}
+		\subsection{#2}]
+	\Large
+	\index[autorzy]{{#2}!{#1}}
+	\index[piosenki]{#1}
+	}{
+	\end{multicols*}
+	\newpage
+    }
+    
+\newenvironment{song1}[2]{
+	\section{\uppercase{#1}}
+	\subsection{\uppercase{#2}}
+	\begin{adjustwidth}{+7em}{+7em}
+	\Large
+	\index[autorzy]{{#2}!{#1}}
+	\index[piosenki]{#1}
+	}{
+	\end{adjustwidth}
+	\newpage
+    } 
+
+\indexsetup{othercode=\small}
+%\makeindex[name=piosenki, title=INDEKS UTWORÓW, program=makeindex,columns=2,intoc=true,options={-s index_style_piosenki.ist}]
+%\makeindex[name=autorzy, title=INDEKS WYKONAWCÓW, program=makeindex,columns=2,intoc=true,options={-s index_style_autorzy.ist}]
+
+\makeindex[name=piosenki, title=INDEKS UTWORÓW]
+\makeindex[name=autorzy, title=INDEKS WYKONAWCÓW]
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{song2}{RIGHT HERE WAITING}{RICHARD MARX}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% POCZĄTEK WPISYWANIA PIOSENEK %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song2}{Ć Right Here Waiting}{ŚRICHARD MARX}
 \noindent
 Oceans apart day after day\\
 And I slowly go insane\\
@@ -577,7 +625,7 @@ Baby that's your heart, baby that's your heart, baby that's your heart!
 \end{song1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{song2}{the time of my life}{Bill Medley \& Jennifer Warnes}
+\begin{song2kilku}{the time of my life}{Bill Medley}{Jennifer Warnes}{}
 \noindent
 Now I've had the time of my life\\
 No, I never felt like this before\\
@@ -645,7 +693,7 @@ Oh, whoa, oh, oh\\
 Now I've had the time of my life...\\
 \\
 I've had the time of my life...
-\end{song2}
+\end{song2kilku}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{song1}{it's my life}{bon jovi}
@@ -752,7 +800,7 @@ I need a hero...
 \end{song2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{song1}{dust in the wind}{kansas}
+\begin{song1}{Dust in the wind}{kansas}
 \noindent
 I close my eyes, only for a moment, and the moment's gone\\
 All my dreams, pass before my eyes, a curiosity\\
@@ -978,7 +1026,7 @@ I run away but it always seems the same
 \end{song2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{song1}{Tonight i celebrate my love for you}{roberta flack \& Paebo Bryson}
+\begin{song1kilku}{Tonight i celebrate my love for you}{roberta flack}{Paebo Bryson}{}
 \noindent
 Tonight I celebrate my love for you\\
 It seems the natural thing to do\\
@@ -1011,7 +1059,7 @@ Is to get close to you\\
 \\
 Tonight I celebrate my love for you \\
 Tonight
-\end{song1}
+\end{song1kilku}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{song1}{Eye of the tiger}{Survivor}
@@ -1499,7 +1547,7 @@ Enjoy the silence
 \end{song1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{song2}{All for One, All for Love}{Bryan Adams \& Rod Steward \& Sting}
+\begin{song2kilku}{All for One, All for Love}{Bryan Adams}{Rod Steward}{sting}
 \noindent
 When it's love you give\\
 I'll be your man of good faith\\
@@ -1561,7 +1609,7 @@ Then just let your feelings show\\
 When there's someone that you want\\
 When there's someone that you need\\
 Let's make it all, all for one and all for love...\\
-\end{song2}
+\end{song2kilku}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{song1}{500 Miles}{The Hooters}
@@ -1711,9 +1759,588 @@ Of my heart\\
 Of my heart 
 \end{song1}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song1}{I will always love you}{Whitney Houston}
+\noindent
+If I should stay,\\
+I would only be in your way\\
+So I'll go, but I know\\
+I'll think of you every step of the way\\
+\\
+And I will always love you\\
+I will always love you\\
+You, my darling, you, hmm...\\
+\\
+Bittersweet memories\\
+that is all I'm taking with me\\
+So, goodbye. Please, don't cry\\
+We both know I'm not what you, you need\\
+\\
+And I will always love you\\
+I will always love you\\
+\\
+I hope life treats you kind\\
+And I hope you have all you've dreamed of\\
+And I wish to you, joy and happiness\\
+But above all this, I wish you love\\
+\\
+And I will always love you\\
+I will always love you\\
+I will always love you\\
+I will always love you\\
+I will always love you\\
+I, I will always love you\\
+\\
+You, darling, I love you\\
+Ooh, I'll always, I'll always love you
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song2}{Lady In Black}{Uriah Heep}
+\noindent
+She came to me one morning\\
+One lonely Sunday morning\\
+Her long hair flowing\\
+In the midwinter wind\\
+I know not how she found me\\
+For in darkness I was walking\\
+And destruction lay around me\\
+From a fight I could not win\\
+Aaa...\\
+\\
+She asked me name my foe then\\
+I said the need within some men\\
+To fight and kill their brothers\\
+Without thought of love or God\\
+And I begged her give me horses\\
+To trample down my enemies\\
+So eager was my passion\\
+To devour this waste of life\\
+Aaa...\\
+\\
+But she wouldn't think of battle that\\
+Reduces men to animals\\
+So easy to begin\\
+And yet impossible to end\\
+For she's the mother of all men\\
+Who counselled me so wisely then\\
+I feared to walk alone again\\
+And asked if she would stay\\
+Aaa...\\
+\vfill
+\columnbreak
+\noindent
+Oh lady lend your hand outright\\
+And let me rest here at your side\\
+Have faith and trust\\
+In peace she said\\
+And filled my heart with life\\
+There is no strength in numbers\\
+Have no such misconception\\
+But when you need me\\
+Be assured I won't be far away\\
+Aaa...\\
+\\
+Thus having spoke she turned away\\
+And though I found no words to say\\
+I stood and watched until I saw\\
+Her black coat disappear\\
+My labour is no easier\\
+But now I know I'm not alone\\
+I find new heart each time\\
+I think upon that windy day\\
+And if one day she comes to you\\
+Drink deeply from her words so wise\\
+Take courage from her\\
+As your prize\\
+And say hello from me\\
+Aaa... 
+\end{song2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song1}{shape of my heart}{sting}
+\noindent
+He deals the cards as a meditation\\
+And those he plays never suspect\\
+He doesn't play for the money he wins\\
+He don't play for respect\\
+He deals the cards to find the answer\\
+The secret geometry of chance\\
+The hidden law of probable outcome\\
+The numbers lead a dance\\
+\\
+I know that the spades are the swords of a soldier\\
+I know that the clubs are weapons of war\\
+I know that diamonds mean money for this art\\
+But that's not the shape of my heart\\
+\\
+He may play the jack of diamonds\\
+He may lay the queen of spades\\
+He may conceal a king in his hand\\
+While the memory of it fades\\
+\\
+I know that the spades are the swords of a soldier...\\
+That's not the shape, shape of my heart\\
+\\
+And if I told you that I loved you\\
+You'd maybe think there's something wrong\\
+I'm not a man of too many faces\\
+The mask I wear is one\\
+Those who speak know nothing\\
+And find out to their cost\\
+Like those who curse their luck in too many places\\
+And those who fear are lost\\
+\\
+I know that the spades are the swords of a soldier...
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{I'm Still Standing}{elton john}
+\noindent
+You could never know what it's like.\\
+Your blood like winter freezes just like ice\\
+And there's a cold lonely light that shines from you.\\
+You'll wind up like the wreck you hide \\
+behind that mask you use.\\
+\\
+And did you think this fool could never win?\\
+Well look at me, I'm coming back again!\\
+I got a taste of love in a simple way,\\
+And if you need to know while I'm still standing\\
+you just fade away!\\
+\\
+Don't you know I'm still standing\\ 
+better than I ever did?\\
+Looking like a true survivor,\\ 
+feeling like a little kid!\\
+I'm still standing after all this time,\\
+Picking up the pieces of my life without you on my mind!\\
+\\
+I'm still standing, yeah, yeah, yeah.\\
+I'm still standing, yeah, yeah, yeah.\\
+\\
+Once I never could hope to win,\\
+You starting down the road leaving me again.\\
+The threats you made were meant to cut me down;\\
+And if our love was just a circus you'd be a clown by now\\
+\\
+Don't you know I'm still standing...\\
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Can't help falling in love}{elvis presley}
+\noindent
+Wise men say only fools rush in\\
+But I can't help falling in love with you\\
+Shall I stay\\
+Would it be a sin\\
+If I can't help falling in love with you\\
+\\
+Like a river flows surely to the sea\\
+Darling so it goes\\
+Some things are meant to be\\
+Take my hand, take my whole life too\\
+For I can't help falling in love with you\\
+\\
+Like a river flows surely to the sea\\
+Darling so it goes\\
+Some things are meant to be\\
+Take my hand, take my whole life too\\
+For I can't help falling in love with you\\
+For I can't help falling in love with you \\
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{The Final Countdown}{europe}
+\noindent
+We're leaving together,\\
+But still it's farewell\\
+And maybe we'll come back,\\
+To earth, who can tell ?\\
+I guess there is no one to blame\\
+We're leaving ground (leaving ground)\\
+Will things ever be the same again?\\
+\\
+It's the final countdown!\\
+The final countdown, ooo!\\
+\\
+We're heading for Venus\\
+And still we stand tall\\
+Cause maybe they've seen us\\
+And welcome us all, yeah\\
+With so many light years to go\\
+And things to be found (to be found)\\
+I'm sure that we'll all miss her so.\\
+\\
+It's the final countdown!\\
+The final countdown, ooo...
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Sweet Dreams}{Eurythmics}
+\noindent
+Sweet dreams are made of this\\
+Who am I to disagree?\\
+I've traveled all world and the seven seas\\
+Everybody's looking for something\\
+Some of them want to use you\\
+Some of them want to get used by you\\
+Some of them want to abuse you\\
+Some of them want to be abused\\
+\\
+Sweet dreams are made of this\\
+Who am I to disagree?\\
+I've traveled all world and the seven seas\\
+Everybody's looking for something\\
+\\
+Hold your head up\\
+Keep your head up, movin' on\\
+Hold your head up, movin' on\\
+Keep your head up, movin' on\\
+Hold your head up, movin' on\\
+Keep your head up, movin' on\\
+Hold your head up, movin' on\\
+Keep your head up\\
+\\
+Some of them want to use you\\
+Some of them want to get used by you\\
+Some of them want to abuse you\\
+Some of them want to be abused\\
+\\
+Hold your head up...\\
+\\
+Sweet dreams are made of this...\\
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1kilku}{Something stupid}{Frank Sinatra}{Nancy Sinatra}{}
+\noindent
+I know I stand in line until you think you have the time\\
+To spend an evening with me\\
+And if we go some place to dance\\
+I know that there’s a chance you won’t be leaving with me\\
+\\
+Then afterwards we drop into a quiet little place\\
+And have a drink or two\\
+And then I go and spoil it all by saying something stupid\\
+Like I love you\\
+\\
+I can see it in your eyes\\
+That you despise the same old lines\\
+You heard the night before and though it’s just a line to you\\
+For me it’s true\\
+And never seemed so right before\\
+\\
+I practice every day to find some clever lines to say\\
+To make the meaning come through\\
+But then I think I’ll wait until the evening gets late\\
+And I’m alone with you\\
+\\
+The time is right\\
+Your perfume fills my head\\
+The stars get red\\
+And, oh, the night’s so blue\\
+And then I go and spoil it all\\
+By saying something stupid\\
+Like I love you\\
+\\
+The time is right...\\
+I love you, I love you, I love you
+\end{song1kilku}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song2}{Don't cry for me Argentina}{Madonna}
+\noindent
+It won't be easy, you'll think it strange\\
+When I try to explain how I feel\\
+That I still need your love\\ 
+After all that I've done\\
+\\
+You won't believe me\\
+All you will see is a girl you once knew\\
+Although she's dressed up to the nines\\
+At sixes and sevens with you\\
+\\
+I had to let it happen, I had to change\\
+Couldn't stay all my life down at heel\\
+Looking out of the window,\\ 
+Staying out of the sun\\
+\\
+So I chose freedom\\
+Running around, trying everything new\\
+But nothing impressed me at all\\
+I never expected it to\\
+\\
+Don't cry for me Argentina\\
+The truth is I never left you\\
+All through my wild days\\
+My mad existence\\
+I kept my promise\\
+Don't keep your distance\\
+\\
+And as for fortune, and as for fame\\
+I never invited them in\\
+Though it seemed to the world\\ 
+They were all I desired\\
+\vfill
+\columnbreak
+\noindent
+They are illusions\\
+They're not\\ 
+The solutions they promised to be\\
+The answer was here all the time\\
+I love you and hope you love me\\
+\\
+Don't cry for me Argentina\\
+\\
+Don't cry for me Argentina\\
+The truth is I never left you\\
+All through my wild days\\
+My mad existence\\
+I kept my promise\\
+Don't keep your distance\\
+\\
+Have I said too much?\\
+There's nothing more I can think of\\ 
+To say to you.\\
+But all you have to do\\ 
+Is look at me to know\\
+That every word is true \\
+\end{song2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Kayleigh}{Marillion}
+\noindent
+Do you remember chalk hearts melting on a playground wall\\
+Do you remember dawn escapes from moon washed college halls\\
+Do you remember the cherry blossom in the market square\\
+Do you remember I thought it was confetti in our hair\\
+\\
+By the way, didn't I break your heart?\\
+Please excuse me, I never meant to break your heart\\
+So sorry, I never meant to break your heart\\
+But you broke mine\\
+\\
+Kayleigh, is it too late to say I'm sorry?\\
+And, Kayleigh, could we get it together again?\\
+I just can't go on pretending that it came to a natural end\\
+Kayleigh, oh, I never thought I'd miss you\\
+And, Kayleigh, I thought that we'd always be friends\\
+We said our love would last forever\\
+So how did it come to this bitter end?\\
+\\
+Do you remember barefoot on the lawn with shooting stars\\
+Do you remember loving on the floor in Belsize Park\\
+Do you remember dancing in stilettoes in the snow\\
+Do you remember you never understood I had to go\\
+\\
+By the way, didn't I break your heart...\\
+\\
+Kayleigh, I just wanna say I'm sorry\\
+But, Kayleigh, I'm too scared to pick up the phone\\
+To hear you've found another lover to patch up our broken home...\\
+\\
+Kayleigh, I'm still trying to write that love song\\
+Kayleigh, it's more important to me now you're gone\\
+Maybe it will prove that we were right\\
+Or it'll prove that I was wrong ?
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Bang Bang (My baby shot me down)}{Nancy Sinatra}
+\noindent
+I was five and he was six\\
+We rode on horses made of sticks\\
+He wore black and I wore white\\
+He would always win the fight\\
+\\
+Bang bang, he shot me down\\
+Bang bang, I hit the ground\\
+Bang bang, that awful sound\\
+Bang bang, my baby shot me down\\
+\\
+Seasons came and changed the time\\
+When I grew up, I called him mine\\
+He would always laugh and say\\
+Remember when we used to play\\
+\\
+Bang bang, I shot you down\\
+Bang bang, you hit the ground\\
+Bang bang, that awful sound\\
+Bang bang , I used to shoot you down\\
+\\
+Music played and people sang\\
+Just for me the church bells rang\\
+\\
+Now he's gone, I don't know why\\
+Until this day, sometimes I cry\\
+He didn't even say 'Goodbye'\\
+He didn't take the time to lie\\
+\\
+Bang bang, he shot me down\\
+Bang bang, I hit the ground\\
+Bang bang, that awful sound\\
+Bang bang, my baby shot me down
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song2kilku}{Where the wild roses grow}{Kylie minogue}{Nick Cave}{}
+\noindent
+They call me the Wild Rose\\
+But my name was Elisa Day\\
+Why they call me it, I do not know\\
+For my name was Elisa Day\\
+\\
+From the first day I saw her\\
+I knew she was the one\\
+She stared in my eyes and smiled\\
+For her lips were the color of the roses\\
+They grew down the river,\\ 
+All bloody and wild\\
+\\
+When he knocked on my door\\
+And entered the room\\
+My trembling subsided in his sure embrace\\
+He would be my first man\\
+And with a careful hand\\
+He wiped up the tears\\ 
+That ran down my face\\
+\\
+They call me the Wild Rose...\\
+\\
+On the second day I brought her a flower\\
+She’s more beautiful\\ 
+Than any woman I've seen\\
+And I said: “Do you know\\ 
+Where the wild roses grow\\
+So sweet and scarlet and free?”\\
+\vfill
+\columnbreak
+\noindent
+On the second day he came\\ 
+With a single rose\\
+He said: “Give me your loss\\ 
+And your sorrow”\\
+I nodded my head as I laid on the bed\\
+‘If I show you the roses, will you follow?”\\
+\\
+They call me the Wild Rose...\\
+\\
+On the third day\\ 
+He took me to the river\\
+He showed me the roses and we kissed\\
+And the last thing I heard\\
+Was a muttered word\\
+As he knelt above me with a rock in his fist\\
+\\
+On the last day I took her\\ 
+Where the wild roses grow\\
+She lay on the bank,\\ 
+The wind light as a thief\\
+And I kissed her goodbye,\\
+Said: “All beauty must die”\\
+And I knelt down\\ 
+And planted a rose between her teeth\\
+\\
+They call me the Wild Rose...\\
+\\
+My name was Elisa Day\\
+For my name was Elisa Day\\
+\end{song2kilku}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Killing me softly}{Roberta Flack}
+\noindent
+Strumming my pain with his fingers\\
+Singing my life with his words\\
+Killing me softly with his song,\\
+Killing me softly with his songs\\
+Telling my whole life with his words\\
+Killing me softly with his song\\
+\\
+I heard he sang a good song\\
+I heard he had a style\\
+And so I came to see him to listen for a while\\
+And there he was this young boy\\
+A stranger to my eyes\\
+\\
+Strumming my pain with his fingers...\\
+\\
+I felt all flushed with fever\\
+Embarrassed by the crowd\\
+I felt he found my letters and read each out loud\\
+I prayed that he would finish\\
+But he just kept right on\\
+\\
+Strumming my pain with his fingers...\\
+\\
+He sang as if he knew me in all my dark despair\\
+And then he looked right through me\\
+As if I wasn't there\\
+And he just kept on singing\\
+Singing clear and strong\\
+\\
+Strumming my pain with his fingers... 
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Sailing}{Rod Stewart}
+\noindent
+I am sailing\\
+I am sailing\\
+Home again 'cross the sea\\
+I am sailing stormy waters\\
+To be near you to be free\\
+\\
+I am flying\\
+I am flying\\ 
+Like a bird 'cross the sky\\
+I am flying passing high clouds\\ 
+To be with you to be free\\
+\\
+Can you hear me?\\
+Can you hear me\\ 
+Thro' the dark night far away\\
+I am dying, forever crying\\ 
+To be with you who can say.\\
+\\
+Can you hear me?\\
+Can you hear me\\ 
+Thro' the dark night far away\\
+I am dying, forever crying\\ 
+To be with you who can say\\
+\\
+We are sailing\\
+we are sailing\\
+Home again 'cross the sea\\
+We are sailing stormy waters\\ 
+To be near you to be free\\
+\\
+Oh, Lord, to be near you to be free...\\
+Oh, Lord, to be near you to be free...
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% KONIEC WPISYWANIA PIOSENEK %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\printindex[piosenki]
+%\printindex[autorzy]
+
+
 \end{document}
-
-
-
-
-
