@@ -35,7 +35,7 @@
 \fancyhead[C]{--~\thepage~--}
 
 \titleformat{\section}[hang]
-	{\normalfont\bfseries\LARGE\centering}{\thesection}{0pt}{}{}
+  {\normalfont\bfseries\LARGE\centering}{\thesection}{0pt}{}{}
 \titleformat{\subsection}[hang]
 	{\normalfont\itshape\bfseries\Large\centering\color{gray}}{\thesubsection}{0pt}{\Large}
 \titlespacing*{\section}{0pt}{\baselineskip}{0.1\baselineskip}
@@ -102,7 +102,9 @@
 \makeindex[name=piosenki, title=INDEKS UTWORÓW]
 \makeindex[name=autorzy, title=INDEKS WYKONAWCÓW]
 
+\usepackage{Sweave}
 \begin{document}
+\input{songs-concordance}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

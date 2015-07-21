@@ -31,7 +31,7 @@ The following objects are masked from 'package:base':
 > 
 > katalog_ze_spiewnikiem <- "C:\\Users\\Marta\\Desktop\\Marta\\GitHub\\spiewnik"
 > 
-> dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\spiewnik\\piosenki.idx"))
+> dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\indeksy\\piosenki.idx"))
 > dane_lista <- stri_match_all_regex(dane, "\\\\indexentry[{](.*?)[}][{](.*?)[}]")
 > 
 > tytuly <- unlist(lapply(dane_lista, function(x) x[2]))
@@ -87,7 +87,7 @@ The following objects are masked from 'package:base':
 > 
 > ##################################################################################################
 > 
-> dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\spiewnik\\autorzy.idx"))
+> dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\indeksy\\autorzy.idx"))
 > dane_lista <- stri_match_all_regex(dane, "\\\\indexentry[{][{](.*?)[}][!][{](.*?)[}][}][{](.*?)[}]")
 > 
 > autor <- unlist(lapply(dane_lista, function(x) x[2]))
@@ -173,4 +173,4 @@ zamykanie nieu¿ywanego po³¹czenia 3 (C:\Users\Marta\Desktop\Marta\GitHub\spiewni
 > 
 > proc.time()
 u¿ytkownik     system   up³ynê³o 
-      1.37       0.07       1.46 
+      1.46       0.06       1.48 

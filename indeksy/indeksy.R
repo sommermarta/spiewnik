@@ -3,7 +3,7 @@ library("dplyr")
 
 katalog_ze_spiewnikiem <- "C:\\Users\\Marta\\Desktop\\Marta\\GitHub\\spiewnik"
 
-dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\spiewnik\\piosenki.idx"))
+dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\indeksy\\piosenki.idx"))
 dane_lista <- stri_match_all_regex(dane, "\\\\indexentry[{](.*?)[}][{](.*?)[}]")
 
 tytuly <- unlist(lapply(dane_lista, function(x) x[2]))
@@ -59,7 +59,7 @@ sink()
 
 ##################################################################################################
 
-dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\spiewnik\\autorzy.idx"))
+dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\indeksy\\autorzy.idx"))
 dane_lista <- stri_match_all_regex(dane, "\\\\indexentry[{][{](.*?)[}][!][{](.*?)[}][}][{](.*?)[}]")
 
 autor <- unlist(lapply(dane_lista, function(x) x[2]))
