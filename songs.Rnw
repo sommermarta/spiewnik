@@ -23,6 +23,7 @@
 \usepackage{imakeidx}
 \usepackage{ifthen}
 \usepackage{fancyhdr}
+\usepackage{varwidth}
 
 \setcounter{secnumdepth}{0}
 \setcounter{tocdepth}{1}
@@ -43,12 +44,12 @@
 
 \newenvironment{song2kilku}[4]{	
 	\begin{multicols*}{2}[
-		\section{\uppercase{#1}}
-		\ifthenelse{\not\equal{#4}{}}{\subsection{\uppercase{#2} \& \uppercase{#3} \& \uppercase{#4}}
+		\section{\MakeUppercase{#1}}
+		\ifthenelse{\not\equal{#4}{}}{\subsection{\MakeUppercase{#2} \& \MakeUppercase{#3} \& \MakeUppercase{#4}}
 									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}\index[autorzy]{{#3}!{#1}}\index[autorzy]{{#4}!{#1}}}{
-		\ifthenelse{\not\equal{#3}{}}{\subsection{\uppercase{#2} \& \uppercase{#3}}
+		\ifthenelse{\not\equal{#3}{}}{\subsection{\MakeUppercase{#2} \& \MakeUppercase{#3}}
 									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}\index[autorzy]{{#3}!{#1}}}{
-		\ifthenelse{\not\equal{#2}{}}{\subsection{\uppercase{#2}}
+		\ifthenelse{\not\equal{#2}{}}{\subsection{\MakeUppercase{#2}}
 									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}}{}}}]
 	\Large
 	}{
@@ -57,12 +58,12 @@
     }
     
 \newenvironment{song1kilku}[4]{
-	\section{\uppercase{#1}}
-	\ifthenelse{\not\equal{#4}{}}{\subsection{\uppercase{#2} \& \uppercase{#3} \& \uppercase{#4}}
+	\section{\MakeUppercase{#1}}
+	\ifthenelse{\not\equal{#4}{}}{\subsection{\MakeUppercase{#2} \& \MakeUppercase{#3} \& \MakeUppercase{#4}}
 									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}\index[autorzy]{{#3}!{#1}}\index[autorzy]{{#4}!{#1}}}{
-	\ifthenelse{\not\equal{#3}{}}{\subsection{\uppercase{#2} \& \uppercase{#3}}
+	\ifthenelse{\not\equal{#3}{}}{\subsection{\MakeUppercase{#2} \& \MakeUppercase{#3}}
 									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}\index[autorzy]{{#3}!{#1}}}{
-	\ifthenelse{\not\equal{#2}{}}{\subsection{\uppercase{#2}}
+	\ifthenelse{\not\equal{#2}{}}{\subsection{\MakeUppercase{#2}}
 									  \index[piosenki]{#1}\index[autorzy]{{#2}!{#1}}}{}}}
 	\begin{adjustwidth}{+7em}{+7em}
 	\Large
@@ -73,8 +74,8 @@
 
 \newenvironment{song2}[2]{	
 	\begin{multicols*}{2}[
-		\section{#1}
-		\subsection{#2}]
+		\section{\MakeUppercase{#1}}
+		\subsection{\MakeUppercase{#2}}]
 	\Large
 	\index[autorzy]{{#2}!{#1}}
 	\index[piosenki]{#1}
@@ -84,13 +85,17 @@
     }
     
 \newenvironment{song1}[2]{
-	\section{\uppercase{#1}}
-	\subsection{\uppercase{#2}}
+	\section{\MakeUppercase{#1}}
+	\subsection{\MakeUppercase{#2}}
 	\begin{adjustwidth}{+7em}{+7em}
 	\Large
 	\index[autorzy]{{#2}!{#1}}
 	\index[piosenki]{#1}
+     \begin{center}
+     \begin{varwidth}{\linewidth}
 	}{
+     \end{varwidth}
+     \end{center}
 	\end{adjustwidth}
 	\newpage
     } 
@@ -111,7 +116,48 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song2}{Ć Right Here Waiting}{ŚRICHARD MARX}
+\begin{song1}{hkseq44ertttgts}{harry nilson}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{ kseq44ertttgts}{harry nilson}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{iikseq44ertttgts}{harry nilson}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{ikseq44ertttgts}{harry nilson}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{hkseq44agregts}{harry nilson}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{hkseq44e746gts}{harry nilson}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{hsdgarfgfghhhhhhhhhhhh hhhhhhhhhh hhhhhhhhhhh hhhhhhhhh hhhhhhhhh hhhhhhhhhh hhhhhhhhhh hhhhhhhh hhhhhhhhhhs eq44egts}{Led Zeppelin}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{hkseq44egts}{Led Zeppelin}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{hksgheqtteragts}{Led Zeppelin}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+\begin{song1}{iksgagtresdds}{Led Zeppelin}
+\noindent
+Oceans apart day after day\\
+\end{song1}
+
+\begin{song2}{Ć Right Here Waiting}{ŚRICHAśD MąrX}
 \noindent
 Oceans apart day after day\\
 And I slowly go insane\\
@@ -893,7 +939,7 @@ And she's buying a stairway to heaven...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \begin{song1}{Hello}{Lionel Richie}
-\noindent
+
 I've been alone with you\\
 Inside my mind\\
 And in my dreams I've kissed your lips\\

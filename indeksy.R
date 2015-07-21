@@ -1,7 +1,12 @@
 library("stringi")
 library("dplyr")
 
-katalog_ze_spiewnikiem <- "..\\syf"
+args <- commandArgs(trailingOnly = TRUE)
+args
+
+katalog_ze_spiewnikiem <- ifelse(length(args)==0, "syf", paste(args[1], "//syf", sep="")) 
+
+#########################################################################################################
 
 dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\piosenki.idx"))
 dane_lista <- stri_match_all_regex(dane, "\\\\indexentry[{](.*?)[}][{](.*?)[}]")
@@ -32,25 +37,98 @@ stri_extract_all_regex(tytuly_posortowane, "^.") %>%
   stri_trans_toupper() -> pierwsze_litery
 pierwsze_litery[which(is.na(pierwsze_litery))] <- "Symbole"
 
+ramka <- data.frame(autor=pierwsze_litery, piosenka=tytuly_posortowane, strona=nr_stron_posortowane)
+
+ramka %>%  group_by(autor) %>% mutate(ile=n()) -> ramka2
+ile <- 0
+odst1 <- 6
+odst2 <- 5
+odst3 <- 1.5
 
 sink(file(stri_paste(katalog_ze_spiewnikiem, "\\piosenki.Rnw"), encoding="UTF-8"))
 
-cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS UTWORÓW\\end{Huge}\\vspace{1cm}]")
+cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\\linespread{0.1}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS UTWORÓW\\end{Huge}\\vspace{1cm}]")
 
-for(i in 1:length(pierwsze_litery)){
-  if(i != 1){
-    if(!(pierwsze_litery[i] == pierwsze_litery[i-1])){
-      cat("\n\\indexspace\n")
-      cat("{\\Large\\bfseries ", pierwsze_litery[i], " }\\nopagebreak", "\n\n")
-      cat(tytuly_posortowane[i], "\\dotfill ", nr_stron_posortowane[i], "\\\\\n")
-    } else{
-      cat(tytuly_posortowane[i], "\\dotfill ", nr_stron_posortowane[i], "\\\\\n")
-    } 
-  } else{
-    cat("{\\Large\\bfseries ", pierwsze_litery[1], " }\\nopagebreak", "\n\n")
-    cat(tytuly_posortowane[1], "\\dotfill ", nr_stron_posortowane[1], "\\\\\n")
-  } 
-} 
+for(i in 1:nrow(ramka2)){
+     if(i != 1){
+          if(ramka2$autor[i]==ramka2$autor[i-1]){
+               
+               cat("\t\t\\item[] ", 
+                   paste("\\textit{", 
+                         as.character(ramka2$piosenka[i]), 
+                         "} \\dotfill ",
+                         sep=""),
+                   as.character(ramka2$strona[i]), 
+                   "\\\\\n")
+               
+               ile <- ile+1
+               
+               if(ramka2$ile[i]==4 & ile==2){
+                    cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=",
+                              odst1,
+                              "pt, after=\\vspace{",
+                              odst2,
+                              "mm}, leftmargin=0mm]\n\t\t\\itemsep0em\n", 
+                              sep=""))
+               }
+               if(ramka2$ile[i]>4 & ile >=2 & ramka2$ile[i]-ile > 2){
+                    cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=",
+                              odst1,
+                              "pt, after=\\vspace{",
+                              odst3,
+                              "mm}, leftmargin=0mm]\n\t\t\\itemsep0em\n",
+                              sep=""))
+               } 
+               if(ramka2$ile[i]>4 & ile >=2 & ramka2$ile[i]-ile == 2){
+                    cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=",
+                              odst1,
+                              "pt, after=\\vspace{",
+                              odst2,
+                              "mm}, leftmargin=0mm]\n\t\t\\itemsep0em\n",
+                              sep=""))
+               } 
+          } else{
+               ile <- 1
+                    jakiodstep <- ifelse(ramka2$ile[i]>=4, odst3, odst2)
+                    cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n", 
+                              paste("\\begin{Large}\n\t\t\\textbf{", ramka2$autor[i],"}\n\t\\end{Large}" , sep=""), 
+                              sep=""), 
+                        paste("\n\t\\begin{itemize}[topsep=",
+                              odst1,
+                              "pt, after=\\vspace{", 
+                              jakiodstep, 
+                              "mm}, leftmargin=0mm]",
+                              "\n\t\t\\itemsep0em\n\t\t\\item[]", 
+                              "\\textit{", 
+                              as.character(ramka2$piosenka[i]), 
+                              "} \\dotfill", 
+                              sep=""), 
+                        as.character(ramka2$strona[i]), 
+                        "\\\\\n") 
+               }    
+            
+     } else{
+          ile <- 1
+          jakiodstep <- ifelse(ramka2$ile[i]>=4, odst3, odst2)
+          cat(paste("\\begin{minipage}{\\columnwidth}\n\t", 
+                    paste("\\begin{Large}\n\t\t\\textbf{", ramka2$autor[i],"}\n\t\\end{Large}" , sep=""), 
+                    sep=""), 
+              paste("\n\t\\begin{itemize}[topsep=",
+                    odst1,
+                    "pt, after=\\vspace{",
+                    jakiodstep,
+                    "mm}, leftmargin=0mm]\n\t\t\\itemsep0em\n\t\t\\item[]", 
+                    "\\textit{", 
+                    as.character(ramka2$piosenka[1]), 
+                    "} \\dotfill",
+                    sep=""),
+              as.character(ramka2$strona[1]), 
+              "\\\\\n")
+     }
+     if(i == nrow(ramka2)){
+          cat("\t\\end{itemize}\n\\end{minipage}\n")
+     }
+}
 
 cat("\n\n\n\\end{multicols*}\n\n\\end{document}")
 
@@ -81,6 +159,11 @@ for(i in 1:length(autor)){
 }
 autor <- stri_trans_toupper(autor)
 
+stri_detect_fixed(autor, "THE ") %>%
+     unlist() -> gdzie_jest_the
+
+autor[gdzie_jest_the] <- paste(stri_match_first_regex(autor[gdzie_jest_the], "^THE (.*)?")[,2], ", THE", sep="")
+
 ramka <- data.frame(autor=autor, piosenka=piosenka, strona=nr_stron)
 
 ramka %>%
@@ -94,6 +177,9 @@ for(i in 1:nrow(ramka2)){
   stri_replace_first_fixed(as.character(ramka2$autor[i]), literka[i], "") %>% unlist() -> reszta[i]  
 }
 
+ramka2 %>%  group_by(autor) %>% mutate(ile=n()) -> ramka2
+ile <- 0
+
 sink(file(stri_paste(katalog_ze_spiewnikiem, "\\autorzy.Rnw"), encoding="UTF-8"))
 
 cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\\linespread{0.1}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS WYKONAWC\\IeC {\\'O}W\\end{Huge}\\vspace{1cm}]")
@@ -101,38 +187,84 @@ cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepacka
 for(i in 1:nrow(ramka2)){
   if(i != 1){
     if(ramka2$autor[i]==ramka2$autor[i-1]){
-      cat("\\item[] ", 
-          as.character(ramka2$piosenka[i]), 
-          " \\dotfill ", 
+         
+      cat("\t\t\\item[] ", 
+          paste("\\textit{", 
+                as.character(ramka2$piosenka[i]), 
+                "} \\dotfill ",
+                sep=""),
           as.character(ramka2$strona[i]), 
           "\\\\\n")
+
+     ile <- ile+1
+     
+     if(ramka2$ile[i]==4 & ile==2){
+          cat("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{3mm}]\n\t\t\\itemsep0em\n")
+     }
+     if(ramka2$ile[i]>4 & ile >=2 & ramka2$ile[i]-ile > 2){
+          cat("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{1.5mm}]\n\t\t\\itemsep0em\n")
+     } 
+     if(ramka2$ile[i]>4 & ile >=2 & ramka2$ile[i]-ile == 2){
+          cat("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{3mm}]\n\t\t\\itemsep0em\n")
+     } 
     } else{
+        ile <- 1
         if(literka[i]==literka[i-1]){
-          cat("\\end{itemize}\n", paste(literka[i], reszta[i], sep=""), 
-              "\n\\begin{itemize}[topsep=0pt]\n\\itemsep0em\n\\item[] ", 
-              as.character(ramka2$piosenka[i]), 
-              " \\dotfill ", 
+          jakiodstep <- ifelse(ramka2$ile[i]>=4, 1.5, 3)
+          cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t", 
+                    literka[i], 
+                    reszta[i], 
+                    sep=""), 
+              paste("\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{",
+                    jakiodstep, 
+                    "mm}]\n\t\t\\itemsep0em\n\t\t\\item[]", 
+                    "\\textit{", 
+                    as.character(ramka2$piosenka[i]), 
+                    "} \\dotfill",
+                    sep=""), 
               as.character(ramka2$strona[i]), 
               "\\\\\n")  
         } else{
-          cat("\\end{itemize}\n", paste("\\begin{Large}\\textbf{", literka[i], "}\\end{Large}", reszta[i], sep=""), 
-              "\n\\begin{itemize}[topsep=0pt]\n\\itemsep0em\n\\item[] ", 
-              as.character(ramka2$piosenka[i]), 
-              " \\dotfill ", 
+          ile <- 1
+          jakiodstep <- ifelse(ramka2$ile[i]>=4, 1.5, 3)
+          cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n", 
+                    "\t\\begin{Large}\\textbf{", 
+                    literka[i], 
+                    "}\\end{Large}", 
+                    reszta[i], 
+                    sep=""), 
+              paste("\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{", 
+                    jakiodstep, 
+                    "mm}]",
+                    "\n\t\t\\itemsep0em\n\t\t\\item[]", 
+                    "\\textit{", 
+                    as.character(ramka2$piosenka[i]), 
+                    "} \\dotfill", 
+                    sep=""), 
               as.character(ramka2$strona[i]), 
               "\\\\\n") 
         }    
     }  
   } else{
-      cat(paste("\\begin{Large}\\textbf{", literka[1], "}\\end{Large}", reszta[1], sep=""), 
-          "\n\\begin{itemize}[topsep=0pt]\n\\itemsep0em\n\\item[] ", 
-          as.character(ramka2$piosenka[1]), 
-          " \\dotfill ", 
+      ile <- 1
+      jakiodstep <- ifelse(ramka2$ile[i]>=4, 1.5, 3)
+      cat(paste("\\begin{minipage}{\\columnwidth}\n\t\\begin{Large}\\textbf{", 
+                literka[1], 
+                "}\\end{Large}", 
+                reszta[1], 
+                sep=""), 
+          paste("\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{",
+                jakiodstep,
+                "mm}]\n\t\t\\itemsep0em\n\t\t\\item[]", 
+                "\\textit{", 
+                as.character(ramka2$piosenka[1]), 
+                "} \\dotfill",
+                sep=""),
           as.character(ramka2$strona[1]), 
           "\\\\\n")
     }
   if(i == nrow(ramka2)){
-    cat("\\end{itemize}\n")
+    cat("\t\\end{itemize}\n\\end{minipage}\n")
   }
 } 
 
