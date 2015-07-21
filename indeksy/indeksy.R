@@ -1,9 +1,9 @@
 library("stringi")
 library("dplyr")
 
-katalog_ze_spiewnikiem <- "C:\\Users\\Marta\\Desktop\\songs"
+katalog_ze_spiewnikiem <- "C:\\Users\\Marta\\Desktop\\Marta\\GitHub\\spiewnik"
 
-dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\piosenki.idx"))
+dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\spiewnik\\piosenki.idx"))
 dane_lista <- stri_match_all_regex(dane, "\\\\indexentry[{](.*?)[}][{](.*?)[}]")
 
 tytuly <- unlist(lapply(dane_lista, function(x) x[2]))
@@ -33,9 +33,9 @@ stri_extract_all_regex(tytuly_posortowane, "^.") %>%
 pierwsze_litery[which(is.na(pierwsze_litery))] <- "Symbole"
 
 
-sink(file(stri_paste(katalog_ze_spiewnikiem, "\\indeks_piosenki\\piosenki.tex"), encoding="UTF-8"))
+sink(file(stri_paste(katalog_ze_spiewnikiem, "\\indeksy\\piosenki.Rnw"), encoding="UTF-8"))
 
-cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS UTWORÓW\\end{Huge}\\vspace{1cm}]")
+cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS UTWORÓW\\end{Huge}\\vspace{1cm}]")
 
 for(i in 1:length(pierwsze_litery)){
   if(i != 1){
@@ -59,7 +59,7 @@ sink()
 
 ##################################################################################################
 
-dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\autorzy.idx"))
+dane <- readLines(stri_paste(katalog_ze_spiewnikiem, "\\spiewnik\\autorzy.idx"))
 dane_lista <- stri_match_all_regex(dane, "\\\\indexentry[{][{](.*?)[}][!][{](.*?)[}][}][{](.*?)[}]")
 
 autor <- unlist(lapply(dane_lista, function(x) x[2]))
@@ -94,9 +94,9 @@ for(i in 1:nrow(ramka2)){
   stri_replace_first_fixed(as.character(ramka2$autor[i]), literka[i], "") %>% unlist() -> reszta[i]  
 }
 
-sink(file(stri_paste(katalog_ze_spiewnikiem, "\\indeks_autorzy\\autorzy.tex"), encoding="UTF-8"))
+sink(file(stri_paste(katalog_ze_spiewnikiem, "\\indeksy\\autorzy.Rnw"), encoding="UTF-8"))
 
-cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\\linespread{0.1}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS WYKONAWC\\IeC {\\'O}W\\end{Huge}\\vspace{1cm}]")
+cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\\linespread{0.1}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS WYKONAWC\\IeC {\\'O}W\\end{Huge}\\vspace{1cm}]")
 
 for(i in 1:nrow(ramka2)){
   if(i != 1){

@@ -1,2 +1,0 @@
-@echo off
-R CMD BATCH C:\Users\Marta\Desktop\songs\indeksy.R
