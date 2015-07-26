@@ -36,7 +36,14 @@
 \setlength\columnsep{50pt}
 \begin{document}
 \begin{multicols*}{2}[\begin{Huge}INDEKS WYKONAWC\IeC {\'O}W\end{Huge}\vspace{1cm}]\begin{minipage}{\columnwidth}
-	\begin{Large}\textbf{A}\end{Large}LICE COOPER 
+	\begin{Large}\textbf{A}\end{Large}BBA 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{One of Us} \dotfill 63 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	ALICE COOPER 
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{Poison} \dotfill 4 \\
@@ -133,7 +140,21 @@
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{My Heart Will Go On} \dotfill 56 \\
-		\item[]  \textit{Sous le Vent} \dotfill  61 \\
+		\item[]  \textit{Sous le Vent} \dotfill  60 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	CHER 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Strong Enough} \dotfill 64 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	CULTURE CLUB 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Karma chameleon} \dotfill 65 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -196,7 +217,14 @@
 	\begin{Large}\textbf{G}\end{Large}AROU 
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
-		\item[]\textit{Sous le Vent} \dotfill 61 \\
+		\item[]\textit{Sous le Vent} \dotfill 60 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	GLORIA GAYNOR 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{I Will Survive} \dotfill 66 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -218,6 +246,13 @@
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{The Time of My Life} \dotfill 12 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	JOE DASSIN 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Et Si Tu N'existais Pas} \dotfill 62 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -339,7 +374,14 @@
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
-	\begin{Large}\textbf{R}\end{Large}ICHAD MARX 
+	\begin{Large}\textbf{R}\end{Large}AY CHARLES 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Hit the Road Jack} \dotfill 67 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	RICHAD MARX 
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{Right Here Waiting} \dotfill 1 \\
@@ -380,6 +422,21 @@
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{Nothing Compares to You} \dotfill 58 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	SMASH MOUTH 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{All Star} \dotfill 68 \\
+		\item[]  \textit{I'm a Believer} \dotfill  69 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	SMOKIE 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Living Next Door to Alice} \dotfill 61 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}

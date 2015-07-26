@@ -2995,13 +2995,13 @@ Dancing with tears in my eyes \\
 
 Et si tu crois que j'ai eu peur\\
 C'est faux\\
-Je donne des vacances a mon coeur\\
+Je donne des vacances \`a mon coeur\\
 Un peu de repos\\
 Et si tu crois que j'ai eu tort\\
 Attends\\
 Respire un peu le souffle d'or\\
 Qui me pousse en avant\\
-Et...\\
+Et\\
 \\
 Fais comme si j'avais pris la mer\\
 J'ai sorti la grand'voile\\
@@ -3009,48 +3009,435 @@ Et j'ai glissé sous le vent\\
 Fais comme si je quittais la terre\\
 J'ai trouvé mon étoile\\
 Je l'ai suivie un instant\\
-Sous le vent...\\
+Sous le vent\\
 \\
 Et si tu crois que c'est fini\\
 Jamais\\
 C'est juste une pause un répit\\
-Apres les dangers\\
+Apr\`es les dangers\\
 Et si tu crois que je t'oublie\\
 Écoute\\
 Ouvre ton corps aux vents de la nuit\\
 Ferme les yeux\\
-Et...\\
+Et\\
 \\
-Fais comme si j'avais pris la mer\\
-J'ai sorti la grand'voile\\
-Et j'ai glissé sous le vent\\
-Fais comme si je quittais la terre\\
-J'ai trouvé mon étoile\\
-Je l'ai suivie un instant\\
-Sous le vent...\\
+Fais comme si j'avais pris la mer...\\
 \\
 Et si tu crois que c'est fini\\
 Jamais (Sous le vent)\\
 C'est juste une pause un répit\\
-Apres les dangers\\
+Apr\`es les dangers\\
 \\
-Fais comme si j'avais pris la mer\\
-J'ai sorti la grand'voile\\
-Et j'ai glissé sous le vent (glissé sous le vent)\\
-Fais comme si je quittais la terre\\
-J'ai trouvé mon étoile\\
-Je l'ai suivie un instant\\
-\\
-Fais comme si j'avais pris la mer\\
-J'ai sorti la grand'voile\\
-Et j'ai glissé sous le vent\\
-Fais comme si je quittais la terre\\
-J'ai trouvé mon étoile\\
-Je l'ai suivie un instant\\
-Sous le vent... \\
+Fais comme si j'avais pris la mer...
 
 \end{song1kilku}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Living Next Door to Alice}{Smokie}
+
+Sally called when she got the word\\
+And she said: 'I suppose you’ve heard about Alice'\\
+When I rushed to the window and I looked outside\\
+And I could hardly believe my eyes\\
+As a big limousine rolled up into Alice’s drive\\
+\\
+Oh, I don’t know why she’s leaving\\
+Or where she’s gonna go\\
+I guess she’s got her reasons\\
+But I just don’t want to know\\
+’Cos for twenty-four years I’ve been living next door to Alice\\
+Twenty-four years just waiting for the chance\\
+To tell her how I feel and maybe get a second glance\\
+Now I’ve got to get used to not living next door to Alice\\
+\\
+We grew up together\\
+Two kids in the park\\
+We carved our initials deep in the bark\\
+Me and Alice\\
+Now she walks through the door with her head held high\\
+Just for a moment, I caught her eye\\
+As a big limousine pulled slowly out of Alice’s drive\\
+\\
+I don’t know why she’s leaving...\\
+\\
+And Sally called back and asked how I felt\\
+And she said: 'I know how to help -- get over Alice'\\
+She said: 'Now Alice is gone but I’m still here\\
+You know I’ve been waiting for twenty-four years'\\
+And a big limousine disappeared\\
+\\
+I don’t know why she’s leaving...\\
+\\
+No, I’ll never get used to not living next door to Alice\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Et Si Tu N'existais Pas}{Joe Dassin}
+
+\begin{spacing}{0.95}
+Et si tu n'existais pas\\
+Dis-moi pourquoi j'existerais\\
+Pour traîner dans un monde sans toi\\
+Sans espoir et sans regret\\
+Et si tu n'existais pas\\
+J'essaierais d'inventer l'amour\\
+Comme un peintre qui voit sous ses doigts\\
+Naître les couleurs du jour\\
+Et qui n'en revient pas\\
+\\
+Et si tu n'existais pas\\
+Dis-moi pour qui j'existerais\\
+Des passantes endormies dans mes bras\\
+Que je n'aimerais jamais\\
+Et si tu n'existais pas\\
+Je ne serais qu'un point de plus\\
+Dans ce monde qui vient et qui va\\
+Je me sentirais perdu\\
+J'aurais besoin de toi\\
+\\
+Et si tu n'existais pas\\
+Dis-moi comment j'existerais\\
+Je pourrais faire semblant d'\^etre moi\\
+Mais je ne serais pas vrai\\
+Et si tu n'existais pas\\
+Je crois que je l'aurais trouvé\\
+Le secret de la vie, le pourquoi\\
+Simplement pour te créer\\
+Et pour te regarder\\
+\\
+Et si tu n'existais pas\\
+Dis-moi pourquoi j'existerais\\
+Pour traîner dans un monde sans toi\\
+Sans espoir et sans regret\\
+Et si tu n'existais pas\\
+J'essaierais d'inventer l'amour\\
+Comme un peintre qui voit sous ses doigts\\
+Naître les couleurs du jour\\
+Et qui n'en revient pas 
+\end{spacing}
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{One of Us}{ABBA}
+
+They passed me by all of those great romances\\
+You were, I felt, robbing me of my rightful chances\\
+My picture clear, everything seemed so easy\\
+And so I dealt you the blow\\
+One of us had to go\\
+Now it’s different\\
+I want you to know\\
+\\
+One of us is crying\\
+One of us is lying\\
+In her lonely bed\\
+Staring at the ceiling\\
+Wishing she was somewhere else instead\\
+One of us is lonely\\
+One of us is only\\
+Waiting for a call\\
+Sorry for herself\\
+Feeling stupid\\
+Feeling small\\
+Wishing she had never left at all\\
+\\
+I saw myself as a concealed attraction\\
+I felt you kept me away from the heat and the action\\
+Just like a child stubborn and misconceiving\\
+That’s how I started the show\\
+One of us had to go\\
+Now I’ve changed and\\
+I want you to know\\
+\\
+One of us is crying...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Strong Enough}{Cher}
+\begin{spacing}{0.98}
+I don’t need your sympathy\\
+There’s nothing you can say or do for me\\
+And I don’t want a miracle\\
+You’ll never change for no one\\
+I hear your reasons why\\
+Where did you sleep last night?\\
+And was she worth it, was she worth it?\\
+\\
+‘Cos I’m strong enough to live without you\\
+Strong enough and I quit crying\\
+Long enough, now I’m strong enough\\
+To know you gotta go\\
+There’s no more to say\\
+So, save your breath\\
+And then walk away\\
+No matter what I hear you say\\
+I’m strong enough to know you gotta go\\
+\\
+So, you feel misunderstood\\
+Baby, have I got news for you\\
+On being used I could write the book\\
+What you don’t wanna hear about it\\
+I've been losing sleep\\
+You’ve been going cheap\\
+She ain’t worth half of me, it’s true\\
+Now I’m telling you\\
+\\
+Now I’m strong enough to live without you\\
+Strong enough and I quit crying\\
+Long enough, now I’m strong enough\\
+To know you’ve got to go\\
+\\
+Come hell or waters high\\
+You’ll never see me cry\\
+This is our last goodbye, it’s true\\
+I’m telling you...\\
+
+Now I’m strong enough to live without you...
+\end{spacing}
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Karma chameleon}{Culture Club}
+
+There's a loving in your eyes all the way\\
+If I listen to your lies would you say\\
+I’m a man without conviction\\
+I’m a man who doesn’t know\\
+How to sell a contradiction\\
+You come and go\\
+You come and go\\
+\\
+Karma, karma, karma, karma, karma chameleon\\
+You come and go\\
+You come and go\\
+Loving would be easy if your colors were like my dream\\
+Red, gold and green\\
+Red, gold and green\\
+\\
+Didn’t hear your wicked words every day\\
+And you used to be so sweet I heard you say\\
+That my love was an addiction\\
+When we cling our love is strong\\
+When you go, you’re gone forever\\
+You string along\\
+You string along\\
+\\
+Karma, karma, karma, karma, karma chameleon...\\
+\\
+Every day is like a survival\\
+You’re my lover, not my rival\\
+Every day is like a survival\\
+You’re my lover, not my rival\\
+\\
+I’m a man without conviction\\
+I’m a man who doesn’t know\\
+How to sell a contradication\\
+You come and go\\
+You come and go\\
+\\
+Karma, karma, karma, karma, karma chameleon...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{I Will Survive}{Gloria Gaynor}
+
+At first I was afraid, I was petrified\\
+Kept thinkin' I could never live without you by my side\\
+But then I spent so many nights thinkin' how you did me wrong\\
+And I grew strong, and I learned how to get along\\
+\\
+And so your back, from outerspace\\
+I just walked in to find you here with that sad look upon your face\\
+I should've changed that stupid lock\\
+I should've made you leave your key\\
+If I had known for just one second you'd be back to bother me\\
+\\
+Go on now go, walk out the door\\
+Just turn around now, 'cause you're not welcome anymore\\
+Weren't you the one who tried to hurt me with goodbye\\
+You think I'd crumble? You think I'd lay down and die?\\
+Oh no not I, I will survive\\
+Oh as long as I know how to love I know I'll stay alive\\
+I've got all my life to live; I've got all my love to give\\
+And I'll survive, I will survive\\
+Hey, hey!\\
+\\
+It took all the strength I had not to fall apart\\
+And trying hard to mend the pieces of my broken heart\\
+And I spent oh so many nights just feeling sorry for myself\\
+I used to cry, but now I hold my head up high\\
+And you'll see me, somebody new\\
+I'm not that chained up little person still in love with you\\
+And so you felt like droppin' in and just expect me to be free\\
+Now I'm savin' all my lovin' for someone who's lovin' me\\
+\\
+Go on now go, walk out the door...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Hit the Road Jack}{Ray Charles}
+
+Hit the Road Jack and don't you come back\\
+No more, no more, no more, no more\\
+Hit the Road Jack and don't you come back no more\\
+What'd you say?\\
+Hit the Road Jack and don't you come back\\
+No more, no more, no more, no more\\
+Hit the Road Jack and don't you come back no more\\
+\\
+Oh, woman, oh, woman, don't treat me so mean\\
+You're the meanest old woman I have ever seen\\
+\\
+I guess if you say so\\
+I have to pack my things and go (that's right!)\\
+\\
+Hit the Road Jack and don't you come back...\\
+\\
+Now, baby, listen, baby, don't you treat me this a way\\
+Cause I'll be back on my feet some day\\
+Don't care if you do, cause it's understood\\
+You ain't got no money and you just ain't no good\\
+\\
+Well, I guess if you say so\\
+I have to pack my things and go (that's right!)\\
+\\
+Hit the Road Jack and don't you come back...\\
+\\
+Well, oh, what you say? I didn't understand you\\
+You can't mean that... Oh now, baby, please\\
+What you tryin to do to me?\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song2}{All Star}{Smash Mouth}
+
+Somebody once told me\\
+The world is gonna roll me\\
+I ain't the sharpest tool in the shed\\
+She was looking kind of dumb\\
+With her finger and her thumb\\
+In the shape, of an 'L' on her forehead\\
+\\
+Well, the years start coming\\
+And they don't stop coming\\
+Fed to the rules\\
+And I hit the ground running\\
+Didn't make sense not to live for fun\\
+Your brain gets smart\\
+But your head gets dumb\\
+\\
+So much to do, so much to see\\
+So what's wrong\\
+With taking the back streets\\
+You'll never know if you don't go\\
+You'll never shine if you don't glow\\
+\\
+Hey now, you're an All Star\\
+Get your game on and go play\\
+Hey now, you're a Rock Star\\
+Get the show on and get paid\\
+And all that glitters is gold\\
+Only shooting stars break the mold\\
+\\
+It's a cool place\\ 
+And they say it gets colder\\
+You're bundled up now\\
+But wait 'til you get older\\
+But the meteor men beg to differ\\
+Judging by the hole\\
+In the satellite picture\\
+\end{varwidth}
+\end{center}
+\columnbreak
+\begin{center}
+\begin{varwidth}{\columnwidth}
+The ice we skate\\
+Is getting pretty thin\\
+The waters getting warm\\
+So you might as well swim\\
+My world's on fire, how about yours?\\
+That's the way I like it\\
+And I never get bored\\
+\\
+Hey now, you're an All Star...\\
+\\
+Hey now, you're an All Star...\\
+\\
+Somebody once asked\\
+'Could I spare some change for gas\\
+I need to get myself away from this place'\\
+I said yep, what a concept\\
+I could use a little fuel myself\\
+And we could all use a little change\\
+\\
+Well, the years start coming\\
+And they don't stop coming\\
+Fed to the rules\\
+And I hit the ground running\\
+Didn't make sense not to live for fun\\
+Your brain gets smart\\
+But your head gets dumb\\
+\\
+So much to do, so much to see\\
+So what's wrong\\
+With taking the back streets\\
+You'll never know if you don't go\\
+You'll never shine if you don't glow\\
+\\
+Hey now, you're an All Star...
+
+\end{song2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{I'm a Believer}{Smash Mouth}
+
+I thought love was only true in fairy tales\\
+Meant for someone else but not for me\\
+Love was out to get to me\\
+That's the way it seems\\
+Disappointment haunted all my dreams\\
+\\
+And then I saw her face\\
+Now I'm a believer\\
+Not a trace\\
+Of doubt in my mind\\
+I'm in love\\
+I'm a believer\\
+I couldn't leave her\\
+If I tried\\
+\\
+I thought love was more or less a given thing\\
+But the more I gave the less I got, oh yeah\\
+What's the use in trying\\
+All you get is pain\\
+When I wanted sunshine I got rain\\
+\\
+And then I saw her face...\\
+\\
+What's the use in trying\\
+All you get is pain\\
+When I wanted sunshine I got rain\\
+\\
+And then I saw her face...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

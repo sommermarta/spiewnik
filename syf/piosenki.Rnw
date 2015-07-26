@@ -48,9 +48,15 @@
 \begin{Large}
 		\textbf{A}
 	\end{Large} 
-	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]\textit{All for One, All for Love} \dotfill 30 \\
+		\item[]  \textit{All Star} \dotfill  68 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
+		\itemsep0em
 		\item[]  \textit{American Pie} \dotfill  25 \\
 		\item[]  \textit{Another One Bites the Dust} \dotfill  54 \\
 	\end{itemize}
@@ -99,6 +105,7 @@
 	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]\textit{Enjoy the Silence} \dotfill 29 \\
+		\item[]  \textit{Et Si Tu N'existais Pas} \dotfill  62 \\
 		\item[]  \textit{Eye of the Tiger} \dotfill  21 \\
 	\end{itemize}
 \end{minipage}
@@ -118,6 +125,12 @@
 	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]\textit{Hello} \dotfill 17 \\
+		\item[]  \textit{Hit the Road Jack} \dotfill  67 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
 		\item[]  \textit{Holding Out for a Hero} \dotfill  14 \\
 	\end{itemize}
 \end{minipage}
@@ -134,7 +147,13 @@
 	\end{Large} 
 	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
 		\itemsep0em
-		\item[]\textit{I'm Still Standing} \dotfill 37 \\
+		\item[]\textit{I'm a Believer} \dotfill 69 \\
+		\item[]  \textit{I'm Still Standing} \dotfill  37 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
 		\item[]  \textit{I Just Called to Say I Love You} \dotfill  33 \\
 	\end{itemize}
 \end{minipage}
@@ -148,6 +167,12 @@
 	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]  \textit{I will Always Love You} \dotfill  34 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]  \textit{I Will Survive} \dotfill  66 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -169,7 +194,8 @@
 	\end{Large} 
 	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
 		\itemsep0em
-		\item[]\textit{Kayleigh} \dotfill 43 \\
+		\item[]\textit{Karma chameleon} \dotfill 65 \\
+		\item[]  \textit{Kayleigh} \dotfill  43 \\
 		\item[]  \textit{Killing Me Softly} \dotfill  46 \\
 	\end{itemize}
 \end{minipage}
@@ -177,10 +203,16 @@
 \begin{Large}
 		\textbf{L}
 	\end{Large} 
-	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]\textit{Lady in Black} \dotfill 35 \\
 		\item[]  \textit{Leave a Light On} \dotfill  11 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]  \textit{Living Next Door to Alice} \dotfill  61 \\
 		\item[]  \textit{Lost Highway} \dotfill  57 \\
 	\end{itemize}
 \end{minipage}
@@ -201,6 +233,15 @@
 	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]\textit{Nothing Compares to You} \dotfill 58 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+\begin{Large}
+		\textbf{O}
+	\end{Large} 
+	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]\textit{One of Us} \dotfill 63 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -260,7 +301,7 @@
 \begin{minipage}{\columnwidth}
 	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
 		\itemsep0em
-		\item[]  \textit{Sous le Vent} \dotfill  61 \\
+		\item[]  \textit{Sous le Vent} \dotfill  60 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -273,6 +314,12 @@
 	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]  \textit{Stayin' Alive} \dotfill  10 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]  \textit{Strong Enough} \dotfill  64 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
