@@ -104,6 +104,7 @@
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{It's My Life} \dotfill 13 \\
+		\item[]  \textit{Lost Highway} \dotfill  57 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -125,6 +126,14 @@
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{All for One, All for Love} \dotfill 30 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{Large}\textbf{C}\end{Large}ELINE DION 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{My Heart Will Go On} \dotfill 56 \\
+		\item[]  \textit{Sous le Vent} \dotfill  61 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -181,6 +190,13 @@
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{Something Stupid} \dotfill 41 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{Large}\textbf{G}\end{Large}AROU 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Sous le Vent} \dotfill 61 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -254,6 +270,13 @@
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
+	MARTY ROBBINS 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Big Iron} \dotfill 53 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
 	\begin{Large}\textbf{N}\end{Large}ANCY SINATRA 
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
@@ -284,9 +307,35 @@
 \end{minipage}
 \begin{minipage}{\columnwidth}
 	\begin{Large}\textbf{Q}\end{Large}UEEN 
+	\begin{itemize}[topsep=3pt, after=\vspace{1.5mm}]
+		\itemsep0em
+		\item[]\textit{Another One Bites the Dust} \dotfill 54 \\
+		\item[]  \textit{Bohemian Rhapsody} \dotfill  55 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=3pt, after=\vspace{1.5mm}]
+		\itemsep0em
+		\item[]  \textit{Don't Stop Me Now} \dotfill  24 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=3pt, after=\vspace{1.5mm}]
+		\itemsep0em
+		\item[]  \textit{Friends will Be Friends} \dotfill  48 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=3pt, after=\vspace{1.5mm}]
+		\itemsep0em
+		\item[]  \textit{I Want To Break Free} \dotfill  49 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
-		\item[]\textit{Don't Stop Me Now} \dotfill 24 \\
+		\item[]  \textit{Somebody To Love} \dotfill  50 \\
+		\item[]  \textit{These Are the Days of Our Lives} \dotfill  51 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -305,24 +354,32 @@
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
-	ROD STEWARD 
-	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
-		\itemsep0em
-		\item[]\textit{All for One, All for Love} \dotfill 30 \\
-	\end{itemize}
-\end{minipage}
-\begin{minipage}{\columnwidth}
 	ROD STEWART 
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
-		\item[]\textit{Sailing} \dotfill 47 \\
+		\item[]\textit{All for One, All for Love} \dotfill 30 \\
+		\item[]  \textit{Sailing} \dotfill  47 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
-	\begin{Large}\textbf{S}\end{Large}CORPIONS, THE 
+	\begin{Large}\textbf{S}\end{Large}ADE 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Smooth operator} \dotfill 52 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	SCORPIONS, THE 
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{Wind of Change} \dotfill 32 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	SINEAD O'CONNOR 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Nothing Compares to You} \dotfill 58 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -362,7 +419,14 @@
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
-	\begin{Large}\textbf{U}\end{Large}RIAH HEEP 
+	\begin{Large}\textbf{U}\end{Large}LTRAVOX 
+	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
+		\itemsep0em
+		\item[]\textit{Dancing With Tears in My Eyes} \dotfill 59 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	URIAH HEEP 
 	\begin{itemize}[topsep=3pt, after=\vspace{3mm}]
 		\itemsep0em
 		\item[]\textit{Lady in Black} \dotfill 35 \\

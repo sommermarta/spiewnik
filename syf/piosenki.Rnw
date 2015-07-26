@@ -52,6 +52,7 @@
 		\itemsep0em
 		\item[]\textit{All for One, All for Love} \dotfill 30 \\
 		\item[]  \textit{American Pie} \dotfill  25 \\
+		\item[]  \textit{Another One Bites the Dust} \dotfill  54 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -61,6 +62,8 @@
 	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]\textit{Bang Bang (My Baby Shot Me Down)} \dotfill 44 \\
+		\item[]  \textit{Big Iron} \dotfill  53 \\
+		\item[]  \textit{Bohemian Rhapsody} \dotfill  55 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -76,9 +79,15 @@
 \begin{Large}
 		\textbf{D}
 	\end{Large} 
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]\textit{Dancing With Tears in My Eyes} \dotfill 59 \\
+		\item[]  \textit{Don't Cry For Me Argentina} \dotfill  42 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
 	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
 		\itemsep0em
-		\item[]\textit{Don't Cry For Me Argentina} \dotfill 42 \\
 		\item[]  \textit{Don't Stop Me Now} \dotfill  24 \\
 		\item[]  \textit{Dust in the Wind} \dotfill  15 \\
 	\end{itemize}
@@ -91,6 +100,15 @@
 		\itemsep0em
 		\item[]\textit{Enjoy the Silence} \dotfill 29 \\
 		\item[]  \textit{Eye of the Tiger} \dotfill  21 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+\begin{Large}
+		\textbf{F}
+	\end{Large} 
+	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]\textit{Friends will Be Friends} \dotfill 48 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -118,6 +136,12 @@
 		\itemsep0em
 		\item[]\textit{I'm Still Standing} \dotfill 37 \\
 		\item[]  \textit{I Just Called to Say I Love You} \dotfill  33 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]  \textit{I Want To Break Free} \dotfill  49 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -157,6 +181,7 @@
 		\itemsep0em
 		\item[]\textit{Lady in Black} \dotfill 35 \\
 		\item[]  \textit{Leave a Light On} \dotfill  11 \\
+		\item[]  \textit{Lost Highway} \dotfill  57 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -166,6 +191,16 @@
 	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
 		\itemsep0em
 		\item[]\textit{Memory} \dotfill 7 \\
+		\item[]  \textit{My Heart Will Go On} \dotfill  56 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+\begin{Large}
+		\textbf{N}
+	\end{Large} 
+	\begin{itemize}[topsep=6pt, after=\vspace{5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]\textit{Nothing Compares to You} \dotfill 58 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -207,7 +242,25 @@
 \begin{minipage}{\columnwidth}
 	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
 		\itemsep0em
+		\item[]  \textit{Smooth operator} \dotfill  52 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]  \textit{Somebody To Love} \dotfill  50 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
 		\item[]  \textit{Something Stupid} \dotfill  41 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]  \textit{Sous le Vent} \dotfill  61 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}
@@ -237,6 +290,12 @@
 		\itemsep0em
 		\item[]\textit{The Final Countdown} \dotfill 39 \\
 		\item[]  \textit{The Time of My Life} \dotfill  12 \\
+	\end{itemize}
+\end{minipage}
+\begin{minipage}{\columnwidth}
+	\begin{itemize}[topsep=6pt, after=\vspace{1.5mm}, leftmargin=0mm]
+		\itemsep0em
+		\item[]  \textit{These Are the Days of Our Lives} \dotfill  51 \\
 	\end{itemize}
 \end{minipage}
 \begin{minipage}{\columnwidth}

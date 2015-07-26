@@ -19,10 +19,15 @@
     \subitem {Leave a Light On}, 11
   \item {Bill Medley}
     \subitem {The Time of My Life}, 12
+  \item {Bon Jovi}
+    \subitem {Lost Highway}, 57
   \item {Brian Hyland}
     \subitem {Sealed With a Kiss}, 27
   \item {Bryan Adams}
     \subitem {All for One, All for Love}, 30
+  \item {Celine Dion}
+    \subitem {My Heart Will Go On}, 56
+    \subitem {Sous le Vent}, 61
   \item {Depeche Mode}
     \subitem {Enjoy the Silence}, 29
   \item {Don McLean}
@@ -31,6 +36,8 @@
     \subitem {Sweet Dreams}, 40
   \item {Frank Sinatra}
     \subitem {Something Stupid}, 41
+  \item {Garou}
+    \subitem {Sous le Vent}, 61
   \item {Harry Nilsson}
     \subitem {Without You}, 2
   \item {Jennifer Warnes}
@@ -47,6 +54,8 @@
     \subitem {Don't Cry For Me Argentina}, 42
   \item {Marillion}
     \subitem {Kayleigh}, 43
+  \item {Marty Robbins}
+    \subitem {Big Iron}, 53
   \item {Nancy Sinatra}
     \subitem {Bang Bang (My Baby Shot Me Down)}, 44
     \subitem {Something Stupid}, 41
@@ -57,15 +66,24 @@
   \item {Pet Shop Boys}
     \subitem {It's a Sin}, 23
   \item {Queen}
+    \subitem {Another One Bites the Dust}, 54
+    \subitem {Bohemian Rhapsody}, 55
     \subitem {Don't Stop Me Now}, 24
+    \subitem {Friends will Be Friends}, 48
+    \subitem {I Want To Break Free}, 49
+    \subitem {Somebody To Love}, 50
+    \subitem {These Are the Days of Our Lives}, 51
   \item {RICHAD MARX}
     \subitem {Right Here Waiting}, 1
   \item {Roberta Flack}
     \subitem {Killing Me Softly}, 46
-  \item {Rod Steward}
-    \subitem {All for One, All for Love}, 30
   \item {Rod Stewart}
+    \subitem {All for One, All for Love}, 30
     \subitem {Sailing}, 47
+  \item {Sade}
+    \subitem {Smooth operator}, 52
+  \item {Sinead O'Connor}
+    \subitem {Nothing Compares to You}, 58
   \item {Soul Asylum}
     \subitem {Runaway Train}, 19
   \item {Stevie Wonder}
@@ -82,6 +100,8 @@
     \subitem {Wind of Change}, 32
   \item {Toni Braxton}
     \subitem {Unbreak My Heart}, 22
+  \item {Ultravox}
+    \subitem {Dancing With Tears in My Eyes}, 59
   \item {Uriah Heep}
     \subitem {Lady in Black}, 35
   \item {Whitney Houston}
