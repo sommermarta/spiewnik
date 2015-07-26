@@ -162,7 +162,7 @@ autor <- stri_trans_toupper(autor)
 stri_detect_fixed(autor, "THE ") %>%
      unlist() -> gdzie_jest_the
 
-autor[gdzie_jest_the] <- paste(stri_match_first_regex(autor[gdzie_jest_the], "^THE (.*)?")[,2], ", THE", sep="")
+if(sum(gdzie_jest_the) > 0) autor[gdzie_jest_the] <- paste(stri_match_first_regex(autor[gdzie_jest_the], "^THE (.*)?")[,2], ", THE", sep="")
 
 ramka <- data.frame(autor=autor, piosenka=piosenka, strona=nr_stron)
 

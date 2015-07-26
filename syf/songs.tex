@@ -106,8 +106,9 @@
 \makeindex[name=piosenki, title=INDEKS UTWORÓW]
 \makeindex[name=autorzy, title=INDEKS WYKONAWCÓW]
 
+\usepackage{Sweave}
 \begin{document}
-\SweaveOpts{concordance=TRUE}
+\input{songs-concordance}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% To trzeba wklejać przy łamaniu kolumny w song2 i song2kilku: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \end{varwidth}
