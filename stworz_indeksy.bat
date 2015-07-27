@@ -17,3 +17,4 @@ mv syf/piosenki.pdf .
 
 rm syf -rf
 rm indeksy.Rout -rf
+

@@ -124,7 +124,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\begin{song1}{Right Here Waiting}{RICHAD MARX}
+\begin{song1}{Right Here Waiting}{RICHARD MARX}
 
 Oceans apart day after day\\
 And I slowly go insane\\
@@ -344,7 +344,7 @@ And you're singing the songs...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{House of The Rising Sun}{Animals}
+\begin{song1}{House of the Rising Sun}{Animals}
 
 There is a house in New Orleans\\
 They call The Rising Sun\\
@@ -364,7 +364,7 @@ Is when he's all drunk\\
 Oh, mother, tell your children\\
 Not to do what I have done\\
 Spend your lives in sin and misery\\
-In the house of The Rising Sun\\
+In the house of the Rising Sun\\
 \\
 Well I've got one foot on the platform\\
 The other foot on the train\\
@@ -3273,15 +3273,15 @@ Go on now go, walk out the door...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Hit the Road Jack}{Ray Charles}
+\begin{song1}{Hit the Road, Jack}{Ray Charles}
 
-Hit the Road Jack and don't you come back\\
+Hit the road, Jack, and don't you come back\\
 No more, no more, no more, no more\\
-Hit the Road Jack and don't you come back no more\\
+Hit the road, Jack, and don't you come back no more\\
 What'd you say?\\
-Hit the Road Jack and don't you come back\\
+Hit the road, Jack, and don't you come back\\
 No more, no more, no more, no more\\
-Hit the Road Jack and don't you come back no more\\
+Hit the road, Jack, and don't you come back no more\\
 \\
 Oh, woman, oh, woman, don't treat me so mean\\
 You're the meanest old woman I have ever seen\\
@@ -3289,7 +3289,7 @@ You're the meanest old woman I have ever seen\\
 I guess if you say so\\
 I have to pack my things and go (that's right!)\\
 \\
-Hit the Road Jack and don't you come back...\\
+Hit the road, Jack, and don't you come back...\\
 \\
 Now, baby, listen, baby, don't you treat me this a way\\
 Cause I'll be back on my feet some day\\
@@ -3299,7 +3299,7 @@ You ain't got no money and you just ain't no good\\
 Well, I guess if you say so\\
 I have to pack my things and go (that's right!)\\
 \\
-Hit the Road Jack and don't you come back...\\
+Hit the road, Jack, and don't you come back...\\
 \\
 Well, oh, what you say? I didn't understand you\\
 You can't mean that... Oh now, baby, please\\
@@ -4113,8 +4113,8 @@ To make you sting so viciously\\
 They say the greatest coward\\
 Can hurt the most ferociously\\
 \\
-But I'll show you something good.\\
-Oh, I'll show you something good.\\
+But I'll show you something good\\
+Oh, I'll show you something good\\
 If you open your heart\\
 You can make a new start\\
 When your crumbling world falls apart\\
@@ -4125,11 +4125,1018 @@ The miracle of love...\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{song2}{Total Eclipse of the Heart}{Bonnie Tyler}
+\begin{spacing}{0.9}
+Turn around\\
+Every now and then\\
+I get a little bit lonely\\
+And you're never coming 'round\\
+\\
+Turn around\\
+Every now and then\\
+I get a little bit~tired\\
+Of listening to the sound of my tears\\
+\\
+Turn around\\
+Every now and then\\
+I get a little bit~nervous\\
+That the best of all the years have gone by\\
+\\
+Turn around\\
+Every now and then\\
+I get a little bit terrified\\
+And then I see the look in your eyes\\
+\\
+Turn around bright eyes\\
+Every now and then I fall apart\\
+Turn around bright eyes\\
+Every now and then I fall apart\\
+\\
+Turn around\\
+Every now and then\\
+I get a little bit restless\\
+And I dream of something wild\\
+\\
+Turn around\\
+Every now and then\\
+I get a little bit helpless\\
+And I'm lying like a child in your arms\\
+\\
+Turn around\\
+Every now and then\\
+I get a little bit angry\\
+And I know I've got to get out and cry\\
+\end{spacing}
+\end{varwidth}
+\end{center}
+\columnbreak
+\begin{center}
+\begin{varwidth}{\columnwidth}
+\begin{spacing}{0.95}
+Turn around\\
+Every now and then\\
+I get a little bit terrified\\
+But then I see the look in your eyes\\
+\\
+Turn around bright eyes...\\
+\\
+And I need you now tonight\\
+And I need you more than ever\\
+And if you only hold me tight\\
+We'll be holding on forever\\
+And we'll only be making it right\\
+'Cause we'll never be wrong\\
+\\
+Together we can take it\\
+To the end of the line\\
+Your love is like a shadow\\
+On me all of the time\\
+I don't know what to do\\
+And I'm always in the dark\\
+We're living in a powder keg\\
+And giving off sparks\\
+\\
+I really need you tonight\\
+Forever's gonna start tonight\\
+Forever's gonna start tonight\\
+\\
+Once upon a time I was falling in~love\\
+But now I'm only falling apart\\
+There's nothing I can do\\
+A total eclipse of the heart\\
+\\
+Once upon a time\\
+There was light in my~life\\
+But now there's only love in the dark\\
+Nothing I can say\\
+A total eclipse of the heart\\
+\\
+Turn around bright eyes...
+\end{spacing}
+\end{song2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{song1}{Everything I Do (I Do It for You)}{Bryan Adams}
+
+Look into my eyes, you will see\\
+What you mean to me\\
+Search your heart, search your soul\\
+And when you find me there, you will search no more\\
+\\
+Don't tell me it's not worth tryin' for\\
+Can't tell me it's not worth dyin' for\\
+You know it's true\\
+Everything I do, I do it for you\\
+\\
+Look into your heart, you will find\\
+There's nothin' there to hide\\
+Take me as I am, take my life\\
+I would give it all, I would sacrifice\\
+\\
+Don't tell me it's not worth fightin' for\\
+I can't help it, there's nothin' I want more\\
+You know it's true\\
+Everything I do, I do it for you\\
+\\
+There's no love like your love\\
+And no other could give more love\\
+There's nowhere unless you're there\\
+All the time, all the way\\
+\\
+Look into your heart, babe\\
+\\
+Oh, you can't tell me it's not worth tryin' for\\
+I can't help it, there's nothin' I want more\\
+Yeah, I would fight for you, I'd lie for you\\
+Walk the wire for you, yeah, I'd die for you\\
+\\
+You know it's true\\
+Everything I do, oh, I do it for you\\
+
+\end{song1}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Time After Time}{Cyndi Lauper}
+
+Lying in my bed I hear the clock tick and think of you\\
+Caught up in circles, confusion is nothing new\\
+Flashback warm nights almost left behind suitcase of memories\\
+Time after...\\
+\\
+Sometimes you picture me I'm walking too far ahead\\
+You're calling to me I can't hear what you've said\\
+\\
+Then you say go slow I fall behind\\
+The second hand unwinds\\
+\\
+If you're lost you can look and you will find me\\
+Time after time\\
+If you fall I will catch you, I'll be waiting\\
+Time after time\\
+If you're lost you can look and you will find me\\
+Time after time\\
+If you fall I will catch you, I'll be waiting\\
+Time after time\\
+\\
+After my picture fades and darkness has turned to grey\\
+Watching trough windows you're wondering if I'm okay\\
+Secrets stolen from deep inside\\
+The drum beats out of time\\
+\\
+If you're lost you can look and you will find me...\\
+\\
+You say go slow I fall behind\\
+The second hand unwinds\\
+\\
+If you're lost you can look and you will find me...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{True Colors}{Cyndi Lauper}
+
+You with the sad eyes\\
+Don't be discouraged\\
+Oh, I realize\\
+It's hard to take courage\\
+In a world full of people\\
+You can lose sight of it all\\
+And the darkness inside you\\
+Can make you feel so small\\
+\\
+But I see your true colors\\
+Shining through\\
+I see your true colors\\
+And that's why I love you\\
+So don't be afraid to let them show\\
+Your true colors\\
+True colors are beautiful\\
+Like a rainbow\\
+\\
+Show me a smile then\\
+Don't be unhappy, can't remember when\\
+I last saw you laughing\\
+If this world makes you crazy\\
+And you've taken all you can bear\\
+You call me up\\
+Because you know I'll be there\\
+\\
+And I'll see your true colors...\\
+\\
+(Can't remember when I last saw you laughing)\\
+If this world makes you crazy\\
+And you've taken all you can bear\\
+You call me up\\
+Because you know I'll be there\\
+\\
+And I'll see your true colors...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Voyage, Voyage}{Desireless}
+
+Au dessus des vieux volcans\\
+Glisse des ailes sous les tapis du vent\\
+Voyage, voyage\\
+Eternellement\\
+De nuages en marécages\\
+De vent d'Espagne en pluie d'équateur\\
+Voyage, voyage\\
+Vole dans les hauteurs\\
+Au dessus des capitales\\
+Des idées fatales\\
+Regarde l'océan\\
+\\
+Voyage, voyage\\
+Plus loin que la nuit et le jour\\
+Voyage\\
+Dans l'espace inoui de l'amour\\
+Voyage, voyage\\
+Sur l'eau sacrée d'un fleuve indien\\
+Voyage\\
+Et jamais ne reviens\\
+\\
+Sur le Gange ou l'Amazone\\
+Chez les blacks, chez les sikhs, chez les jaunes\\
+Voyage, voyage\\
+Dans tout le royaume\\
+Sur les dunes du Sahara\\
+Des îles Fidji au Fujiyama\\
+Voyage, voyage\\
+Ne t'arretes pas\\
+Au dessus des barbelés\\
+Des coeurs bombardés\\
+Regarde l'océan\\
+\\
+Voyage, voyage...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Sacrifice}{Elton John}
+
+It's a human sign\\
+When things go wrong\\
+When the scent of her lingers\\
+And temptation's strong\\
+\\
+Into the boundary\\
+Of each married man\\
+Sweet deceit comes calling\\
+and negativity lands\\
+\\
+Cold, cold heart\\
+Hard done by you\\
+Some things look better, baby\\
+Just passing through\\
+\\
+And it's no sacrifice\\
+just a simple word\\
+It's two hearts living\\
+In two several worlds\\
+But it's no sacrifice\\
+No sacrifice\\
+It's no sacrifice at all\\
+\\
+Mutual misunderstanding\\
+After the fact\\
+Sensitivity builds a prison\\
+In the final act\\
+\\
+We lose direction\\
+No stone unturned\\
+No tears to damn you\\
+When jealousy burns\\
+\\
+Cold, cold heart...\\
+\\
+And it's no sacrifice...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Blue Suede Shoes}{Elvis Presley}
+
+Well, it's one for the money, two for the show\\
+Three to get ready, now go cat go\\
+But don't you step on my blue suede shoes\\
+Well, you can do anything\\
+But lay off of my blue suede shoes\\
+\\
+You can knock me down, step on my face\\
+Slander my name all over the place\\
+Do anything that you wanna do\\
+But, uh, uh, honey lay off them shoes\\
+And don't you step on my blue suede shoes\\
+You can do anythinga but lay off of my blue suede shoes\\
+\\
+Well, you can burn my house, steal my car\\
+Drink my liquor from an old fruit jar\\
+Do anything that you wanna do\\
+But, uh, uh, honey lay off of my shoes\\
+And don't you step on my blue suede shoes\\
+Well, you can do anything\\
+but lay off of my blue suede shoes\\
+\\
+Well, it's one for the money, two for the show\\
+Three to get ready, now go, go, go\\
+But don't you step on my blue suede shoes\\
+Well, you can do anything but lay off my blue suede shoes\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{The Real Slim Shady}{Eminem}
+\begin{spacing}{0.9}
+May I have your attention please?\\
+May I have your attention please?\\
+Will the real Slim Shady please stand up?\\
+I repeat, will the real Slim Shady please stand up?\\
+We're gonna have a problem here\\
+\\
+Y'all act like you never seen a white person before\\
+Jaws all on the floor like Pam, like Tommy just burst in the door\\
+And started whoopin her ass worse than before\\
+They first were divorce, throwin her over furniture (Ahh!)\\
+It's the return of the 'Ah, wait, no way, you're kidding,\\
+He didn't just say what I think he did, did he?'\\
+And Dr. Dre said... nothing you idiots!\\
+Dr. Dre's dead, he's locked in my basement! (Ha-ha!)\\
+Feminist women love Eminem\\
+'Slim Shady, I'm sick of him\\
+Look at him, walkin around grabbin his you-know-what\\
+Flippin the you-know-who,' 'Yeah, but he's so cute though!'\\
+Yeah, I probably got a couple of screws up in my head loose\\
+But no worse, than what's goin on in your parents' bedrooms\\
+Sometimes, I wanna get on TV and just let loose, but can't\\
+But it's cool for Tom Green to hump a dead moose\\
+'My bum is on your lips, my bum is on your lips'\\
+And if I'm lucky, you might just give it a little kiss\\
+And that's the message that we deliver to little kids\\
+And expect them not to know what a woman's clitoris is\\
+Of course, they gonna know what intercourse is\\
+By the time they hit fourth grade\\
+They got the Discovery Channel don't they?\\
+'We ain't nothing but mammals' Well, some of us cannibals\\
+Who cut other people open like cantaloupes\\
+But if we can hump dead animals and antelopes\\
+Then there's no reason that a man and another man can't elope\\
+But if you feel like I feel, I got the antidote\\
+Women wave your pantyhose, sing the chorus and it goes\\
+\\
+I'm Slim Shady, yes, I'm the real Shady\\
+All you other Slim Shadys are just imitating\\
+So won't the real Slim Shady please stand up\\
+Please stand up, please stand up?
+\end{spacing}
+\end{varwidth}
+\end{center}
+\newpage
+\begin{center}
+\begin{varwidth}{\columnwidth}
+\begin{spacing}{0.9}
+Will Smith don't gotta cuss in his raps to sell his records\\
+Well, I do, so fuck him and fuck you too!\\
+You think I give a damn about a Grammy?\\
+Half of you critics can't even stomach me, let alone stand me\\
+'But Slim, what if you win, wouldn't it be weird?'\\
+Why? So you guys could just lie to get me here?\\
+So you can, sit me here next to Britney Spears?\\
+Shit, Christina Aguilera better switch me chairs\\
+So I can sit next to Carson Daly and Fred Durst\\
+And hear 'em argue over who she gave head to first\\
+You little bitch, put me on blast on MTV\\
+'Yeah, he's cute, but I think he's married to Kim, hee-hee!'\\
+I should download her audio on MP3\\
+And show the whole world how you gave Eminem VD\\
+I'm sick of you little girl and boy groups, all you do is annoy me\\
+So I have been sent here to destroy you\\
+And there's a million of us just like me\\
+Who cuss like me, who just don't give a fuck like me\\
+Who dress like me, walk, talk and act like me\\
+And just might be the next best thing but not quite me!\\
+\\
+I'm Slim Shady, yes, I'm the real Shady...
+\\
+I'm like a head trip to listen to, cause I'm only givin you\\
+Things you joke about with your friends inside your living room\\
+The only difference is I got the balls to say it\\
+In front of y'all and I don't gotta be false or sugarcoated at all\\
+I just get on the mic and spit it\\
+And whether you like to admit it I just shit it\\
+Better than ninety percent of you rappers out can\\
+Then you wonder how can kids eat up these albums like valiums\\
+It's funny, cause at the rate I'm goin when I'm thirty\\
+I'll be the only person in the nursin home flirting\\
+Pinchin nurses asses when I'm jackin off with Jergens\\
+And I'm jerkin but this whole bag of Viagra isn't working\\
+And every single person is a Slim Shady lurkin\\
+He could be workin at Burger King, spittin on your onion rings\\
+Or in the parkin lot, circling\\
+Screaming 'I don't give a fuck!'\\
+With his windows down and his system up\\
+So, will the real Shady please stand up?\\
+And put one of those fingers on each hand up?\\
+And be proud to be outta your mind and outta control\\
+And one more time, loud as you can, how does it go?\\
+\\
+I'm Slim Shady, yes, I'm the real Shady...
+\end{spacing}
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Lemon Tree}{Fool's Garden}
+
+I'm sitting here, in a boring room\\
+It's just another rainy sunday afternoon\\
+I'm wasting my time, I got nothing to do\\
+I'm hanging around, I'm waiting for you\\
+But nothing ever happens and I wonder\\
+\\
+I'm driving around in my car\\
+I'm driving too fast, I'm driving too far\\
+I'd like to change my point of view\\
+I feel so lonely, I'm waiting for you\\
+But nothing ever happens and I wonder\\
+\\
+I wonder how, I wonder why\\
+Yesterday you told me 'bout the blue blue sky\\
+And all that I can see\\
+Is just a yellow lemon tree\\
+I'm turning my head up and down\\
+I'm turning, turning, turning, turning, turning around\\
+And all that I can see\\
+Is just another lemon tree\\
+\\
+I'm sitting here, I miss the power\\
+I'd like to go out, taking a shower\\
+But there's heavy cloud inside my head\\
+I feel so tired, put myself into bed\\
+Where nothing ever happens and I wonder\\
+\\
+Isolation is not good for me\\
+Isolation, I don't want to sit on a lemon tree\\
+\\
+I'm steppin' around in a desert of joy\\
+Baby, anyhow I'll get another toy\\
+And everything will happen and you'll wonder\\
+\\
+I wonder how, I wonder why...\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Got My Mind Set on You}{George Harrison}
+
+I got my mind set on you, I got my mind set on you\\
+I got my mind set on you, I got my mind set on you\\
+\\
+But it's gonna take money\\
+A whole lotta spending money\\
+It's gonne take plenty of money\\
+To do it right, child\\
+It's gonna take time\\
+A whole lot of precious time\\
+It's gonna take patience and time, ummm\\
+To do it, to do it, to do it, to do it, to do it\\
+To do it right, child\\
+\\
+I got my mind set on you, I got my mind set on you\\
+I got my mind set on you, I got my mind set on you\\
+\\
+And this time I know it's for real\\
+The feelings that I feel\\
+I know if I put my mind to it\\
+I know that I really can do it\\
+\\
+I got my mind set on you, set on you\\
+I got my mind set on you, set on you\\
+\\
+But it's gonna take money...\\
+\\
+I got my mind set on you, I got my mind set on you\\
+I got my mind set on you, I got my mind set on you\\
+\\
+And this time I know it's for real\\
+The feelings that I feel\\
+I know if I put my mind to it\\
+I know that I really can do it\\
+\\
+But it's gonna take money...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Wake Me Up When September Ends}{Green Day}
+
+Summer has come and passed\\
+The innocent can never last\\
+Wake me up when September ends\\
+Like my father’s come to pass\\
+Seven years has gone so fast\\
+Wake me up when September ends\\
+\\
+Here comes the rain again\\
+Falling from the stars\\
+Drenched in my pain again\\
+Becoming who we are\\
+As my memory rests\\
+But never forgets what I lost\\
+Wake me up when september ends\\
+\\
+Summer has come and passed\\
+The innocent can never last\\
+Wake me up when September ends\\
+Ring out the bells again\\
+Like we did when spring began\\
+Wake me up when September ends\\
+\\
+Here comes the rain again\\
+Falling from the stars\\
+Drenched in my pain again\\
+Becoming who we are\\
+As my memory rests\\
+But never forgets what I lost\\
+Wake me up when September ends\\
+\\
+Summer has come and passed\\
+The innocent can never last\\
+Wake me up when September ends\\
+Like my father’s come to pass\\
+Twenty years has gone so fast\\
+Wake me up when September ends x3\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{American Idiot}{Green Day}
+
+Don’t want to be an American Idiot\\
+Don’t want a nation under the new mania\\
+Can you hear the sound of hysteria?\\
+The subliminal mind fuck America\\
+\\
+Welcome to a new kind of tension\\
+All across the alienation\\
+Where everything isn’t meant to be ok\\
+Television dreams of tomorrow\\
+We’re not the ones meant to follow\\
+For that’s enough to argue\\
+\\
+Maybe I am the faggot America\\
+I’m not a part of a redneck agenda\\
+Now everybody do the propaganda\\
+And sing along to the age of paranoia\\
+\\
+Welcome to a new kind of tension...\\
+\\
+Don’t want to be an American Idiot\\
+One nation controlled by the media\\
+Information age of hysteria\\
+Calling out to Idiot America\\
+\\
+Welcome to a new kind of tension...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Boulevard of Broken Dreams}{Green Day}
+
+I walk a lonely road\\
+The only one that I have ever known\\
+Don't know where it goes\\
+But it's home to me and I walk alone\\
+\\
+I walk this empty street\\
+On the Boulevard of Broken Dreams\\
+Where the city sleeps\\
+And I'm the only one and I walk alone\\
+\\
+I walk alone, I walk alone\\
+I walk alone, I walk alone\\
+\\
+My shadow's the only one that walks beside me\\
+My shallow heart's the only thing that's beating\\
+Sometimes I wish someone out there will find me\\
+Till then I walk alone\\
+\\
+I'm walking down the line\\
+That divides me somewhere in my mind\\
+On the borderline\\
+Of the edge and where I walk alone\\
+\\
+Read between the lines\\
+Of what's fucked up and everything's alright\\
+Check my vital signs to know I'm still alive\\
+And I walk alone\\
+\\
+I walk alone, I walk alone\\
+I walk alone, I walk alone\\
+\\
+My shadow's the only one that walks beside me...\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song2}{Hallelujah}{Rufus Wainwright}
+
+I've heard there was a secret chord\\
+That David played\\
+And it pleased the Lord\\
+But you don't really care for music\\
+Do~you?\\
+It goes like this\\
+The fourth, the fifth\\
+The minor fall, the major lift\\
+The baffled king composing\\
+Hallelujah\\
+\\
+Hallelujah, hallelujah\\
+Hallelujah, hallelujah\\
+\\
+Your faith was strong\\
+But you needed proof\\
+You saw her bathing on the roof\\
+Her beauty and the moonlight\\
+Overthrew you\\
+She tied you to a kitchen chair\\
+She broke your throne\\
+And she cut your hair\\
+And from your lips she drew the\\
+Hallelujah\\
+\\
+Hallelujah, hallelujah\\
+Hallelujah, hallelujah\\
+\\
+Maybe I have been here before\\
+I know this room, I've walked this floor\\
+I used to live alone before I knew you\\
+I've seen your flag on the marble arch\\
+Love is not a victory march\\
+It's a cold and it's a broken\\
+Hallelujah\\
+\end{varwidth}
+\end{center}
+\columnbreak
+\begin{center}
+\begin{varwidth}{\columnwidth}
+Hallelujah, hallelujah\\
+Hallelujah, hallelujah\\
+\\
+There was a time you let me know\\
+What's real and going on below\\
+But now you never show it to me, do you?\\
+And remember when I moved in you?\\
+The holy dark was moving too\\
+And every breath we drew was\\
+Hallelujah\\
+\\
+Hallelujah, hallelujah\\
+Hallelujah, hallelujah\\
+\\
+Maybe there's a god above\\
+And all I ever learned from love\\
+Was how to shoot at someone\\
+Who outdrew~you\\
+And it's not a cry you can hear at night\\
+It's not somebody who's seen the light\\
+It's a cold and it's a broken\\
+Hallelujah\\
+\\
+Hallelujah, hallelujah\\
+Hallelujah, hallelujah\\
+Hallelujah, hallelujah\\
+Hallelujah, hallelujah\\
+
+\end{song2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{What a Wonderful World}{Louis Armstrong}
+
+I see trees of green\\
+Red roses too\\
+I see them bloom\\
+For me and you\\
+And I think to myself\\
+What a wonderful world!\\
+\\
+I see skies of blue\\
+And clouds of white\\
+The bright blessed day\\
+The dark sacred night\\
+And I think to myself\\
+What a wonderful world!\\
+\\
+The colours of the rainbow\\
+So pretty in the sky\\
+Are also on the faces\\
+Of people going by\\
+I see friends shaking hands\\
+Sayin': 'How do you do?'\\
+They're really sayin'\\
+'I love you'\\
+\\
+I hear babies cryin'\\
+I watch them grow\\
+They'll learn much more\\
+Than I'll ever know\\
+And I think to myself\\
+What a wonderful world!\\
+\\
+Yes\\
+I think to myself\\
+What a wonderful world! \\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Beds Are Burning}{Midnight Oil}
+
+Out where the river broke\\
+The blood wood and the desert oak\\
+Holden wrecks and boiling diesels\\
+Steam in fourty-five degrees\\
+\\
+The time has come to say fair's fair\\
+To pay the rent, to pay our share\\
+The time has come a fact's a fact\\
+It belongs to them, let's give it back\\
+\\
+How could we dance when our earth is turning\\
+How do we sleep while our beds are burning\\
+How could we dance when our earth is turning\\
+How do we sleep while our beds are burning\\
+\\
+The time has come to say fair's fair\\
+To pay the rent, now to pay our share\\
+\\
+Four wheels scare the cockatoos\\
+From Kintore East to Yuendemu\\
+The western desert lives and breathes\\
+In fourty-five degrees\\
+\\
+The time has come to say fair's fair...\\
+\\
+How could we dance when our earth is turning...\\
+\\
+The time has come to say fair's fair\\
+To pay the rent, now, to pay our share\\
+The time has come, a fact's a fact\\
+It belongs to them, we're gonna give it back\\
+\\
+How could we dance when our earth is turning...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{She's Like the Wind}{Patrick Swayze}
+
+She's like the wind through my tree\\
+She rides the night next to me\\
+She leads me through moonlight\\
+Only to burn me with the sun\\
+She's taken my heart\\
+But she doesn't know what she's done\\
+\\
+Feel her breath on my face\\
+Her body close to me\\
+Can't look in her eyes\\
+She's out of my league\\
+Just a fool to believe\\
+I have anything she needs\\
+She's like the wind\\
+\\
+I look in the mirror and all I see\\
+Is a young old man with only a dream\\
+Am I just fooling myself\\
+That she'll stop the pain\\
+Living without her\\
+I'd go insane\\
+\\
+Feel her breath on my face...\\
+\\
+Feel your breath on my face\\
+Your body close to me\\
+Can't look in your eyes\\
+You're out of my league\\
+Just a fool to believe\\
+She's like the wind\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Hope of Deliverance}{Paul McCartney}
+
+I will allways be hoping, hoping\\
+You will allways be holding, holding\\
+My heart in your hand\\
+I will understand\\
+\\
+I will understand, some day, one day\\
+You will understand, always, always\\
+From now until then\\
+\\
+When it will be right, I don't know\\
+What it will be like, I don't know\\
+We live in hope of deliverence\\
+From the darkness that surrounds us\\
+\\
+Hope of deliverence, hope of deliverence\\
+Hope of deliverence from the darkness\\
+That surrounds us\\
+\\
+And I wouldn't mind knowing, knowing\\
+That you wouldn't mind going, going\\
+Along with my plan\\
+\\
+When it will be right, I don't know...\\
+\\
+Hope of deliverence, hope of deliverence...\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{The Show Must Go On}{Queen}
+\begin{spacing}{0.95}
+Empty spaces, what are we living for?\\
+Abandoned places, I guess we know the score?\\
+On and on\\
+Does anybody know what we are looking for?\\
+\\
+Another hero, another mindless crime\\
+Behind the curtain in the pantomime\\
+Hold the line!\\
+Does anybody want to take it anymore\\
+\\
+Show must go on! Show must go on! Yeah!\\
+Inside my heart is breaking\\
+My make-up may be flaking\\
+But my smile still stays on\\
+\\
+Whatever happens, I'll leave it all to chance\\
+Another heartache, another failed romance\\
+On and on\\
+Does anybody know what we are living for?\\
+\\
+I guess I'm learning, I must be warmer now\\
+I'll soon be turning, round the corner now\\
+Outside the dawn is breaking\\
+But inside in the dark I'm aching to be free\\
+\\
+Show must go on...\\
+\\
+My soul is painted like the wings of butterflies\\
+Fairytales of yesterday will grow but never die\\
+I can fly, my friends!\\
+Show must go on! Show must go on!\\
+\\
+I'll face it with a grin\\
+I'm never giving in on with the show!\\
+\\
+I'll top the bill, I'll overkill \\
+I have to find the will to carry on\\
+(On with the show, with the) show!\\
+Show must go on! 
+\end{spacing}
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{We Are the Champions}{Queen}
+
+I've paid my dues\\
+Time after time\\
+I've done my sentence\\
+But committed no crime\\
+And bad mistakes\\
+I've made a few\\
+I've had my share of sand\\
+Kicked in my face\\
+But I've come through\\
+And I need to go on and on, and on, and on\\
+\\
+We are the champions, my friend\\
+And we'll keep on fighting till the end\\
+We are the champions\\
+We are the champions\\
+No time for losers\\
+'Cause we are the champions of the world\\
+\\
+I've taken my bows\\
+And my curtain calls\\
+You've brought me fame and fortune\\
+And everything that goes with it\\
+I thank you all\\
+But it's been no bed of roses no pleasure cruise\\
+I consider it a challenge before the whole human race\\
+And I ain't gonna lose\\
+And I need to go on and on, and on, and on\\
+\\
+We are the champions, my friend...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Everybody Hurts}{R.E.M.}
+
+When the day is long and the night\\
+The night is yours alone\\
+When you're sure you've had enough of this life, well, hang on\\
+Don't let yourself go\\
+'Cause everybody cries and everybody hurts sometimes\\
+\\
+Sometimes everything is wrong\\
+Now it's time to sing along\\
+\\
+When your day is night alone (hold on, hold on)\\
+If you feel like letting go (hold on)\\
+When you think you've had too much of this life, well, hang on\\
+\\
+'Cause everybody hurts\\
+Take comfort in your friends\\
+Everybody hurts\\
+Don't throw your hand\\
+Oh, no. Don't throw your hand\\
+If you feel like you're alone\\
+No, no, no, you are not alone\\
+\\
+If you're on your own in this life\\
+The days and nights are long\\
+When you think you've had too much of this life to hang on\\
+\\
+Well, everybody hurts sometimes\\
+Everybody cries\\
+And everybody hurts sometimes\\
+And everybody hurts sometimes\\
+So, hold on, hold on\\
+Hold on, hold on\\
+Hold on, hold on\\
+Hold on, hold on
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Everybody Was Kung Fu Fighting}{The Village People}
+
+Everybody was kung-fu fighting\\
+Those cats were fast as lightning\\
+In fact it was a little bit frightning\\
+But they fought with expert timing\\
+\\
+They were funky China men\\
+From funky Chinatown\\
+They were chopping them up\\
+And they were chopping them down\\
+It's an ancient Chineese art\\
+And everybody knew their part\\
+From a feint into a slip\\
+And kicking from the hip\\
+\\
+Everybody was kung-fu fighting...\\
+\\
+There was funky Billy Chin \\
+And little Sammy Chung\\
+He said 'here comes the big boss\\
+Lets get it on'\\
+We took a bow and made a stand\\
+Started swinging with the hand\\
+The sudden motion made me skip \\
+Now we're into a brand knew trip\\
+\\
+Everybody was kung-fu fighting...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
