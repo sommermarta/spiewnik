@@ -1435,7 +1435,7 @@ Bye-bye, miss american pie...
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Sealed With a Kiss}{Brian Hyland}
+\begin{song1}{Sealed with a Kiss}{Brian Hyland}
 
 Though we've got to say goodbye for the summer\\
 Darling, I promise you this\\
@@ -1760,7 +1760,7 @@ Of my heart
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{I will Always Love You}{Whitney Houston}
+\begin{song1}{I Will Always Love You}{Whitney Houston}
 
 If I should stay,\\
 I would only be in your way\\
@@ -2069,7 +2069,7 @@ I love you, I love you, I love you
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-\begin{song2}{Don't Cry For Me Argentina}{Madonna}
+\begin{song2}{Don't Cry for Me Argentina}{Madonna}
 
 It won't be easy, you'll think it strange\\
 When I try to explain how I feel\\
@@ -2353,7 +2353,7 @@ Oh, Lord, to be near you to be free...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Friends will Be Friends}{Queen}
+\begin{song1}{Friends Will Be Friends}{Queen}
 
 Another red letter day\\
 So the pound has dropped and the children are creating\\
@@ -2389,7 +2389,7 @@ Right till the end \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{I Want To Break Free}{Queen}
+\begin{song1}{I Want to Break Free}{Queen}
 
 I want to break free\\
 I want to break free\\
@@ -2429,7 +2429,7 @@ I want, I want, I want, I want to break free... \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Somebody To Love}{Queen}
+\begin{song1}{Somebody to Love}{Queen}
 
 Can anybody find me somebody to love?\\
 Each morning I get up I die a little\\
@@ -2511,7 +2511,7 @@ When I look and I find I still love you, I still love you\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Smooth operator}{Sade}
+\begin{song1}{Smooth Operator}{Sade}
 
 He's laughing with another girl\\
 And playing with another heart\\
@@ -2943,7 +2943,7 @@ Nothing compares, nothing compares to you...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Dancing With Tears in My Eyes}{Ultravox}
+\begin{song1}{Dancing with Tears in My Eyes}{Ultravox}
 
 Dancing with tears in my eyes\\
 Weeping for the memory of a life gone by\\
@@ -3061,7 +3061,7 @@ No, I’ll never get used to not living next door to Alice\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Et Si Tu N'existais Pas}{Joe Dassin}
+\begin{song1}{Et Si Tu N'Existais Pas}{Joe Dassin}
 
 \begin{spacing}{0.95}
 Et si tu n'existais pas\\
@@ -3606,7 +3606,7 @@ We didn't start the fire...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{High On Emotion}{Chris De Burgh}
+\begin{song1}{High on Emotion}{Chris De Burgh}
 
 Oh, my heart is spinning like a wheel\\
 Only she can see the way that I fell\\
@@ -3635,7 +3635,7 @@ I am high, high, high on emotion...\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{I Just Died In Your Arms}{Cutting Crew}
+\begin{song1}{I Just Died in Your Arms}{Cutting Crew}
 
 Oh I, I just died in your arms tonight\\
 It must have been something you said\\
@@ -3873,7 +3873,7 @@ Take it easy (take it easy)...\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Thank You For the Music}{ABBA}
+\begin{song1}{Thank You for the Music}{ABBA}
 \begin{spacing}{0.98}
 I’m nothing special\\
 In fact, I’m a bit of a bore\\
