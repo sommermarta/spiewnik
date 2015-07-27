@@ -15,5 +15,5 @@ mv syf/songs.pdf .
 mv syf/autorzy.pdf .
 mv syf/piosenki.pdf .
 
-:rm syf -rf
+rm syf -rf
 rm indeksy.Rout -rf

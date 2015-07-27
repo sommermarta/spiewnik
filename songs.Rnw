@@ -124,7 +124,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\begin{song2}{Right Here Waiting}{RICHAD MARX}
+\begin{song1}{Right Here Waiting}{RICHAD MARX}
 
 Oceans apart day after day\\
 And I slowly go insane\\
@@ -149,33 +149,19 @@ But I can't get near you now\\
 Oh, can't you see it baby\\
 You've got me goin' crazy\\
 \\
-Wherever you go\\
-Whatever you do\\
-I will be right here waiting for you\\
-Whatever it takes\\
-Or how my heart breaks\\
-I will be right here waiting for you\\
+Wherever you go...\\
 \\
 I wonder how we can survive\\
 This romance\\
 But in the end if I'm with you\\
 I'll take the chance\\
-\end{varwidth}
-\end{center}
-\columnbreak
-\begin{center}
-\begin{varwidth}{\columnwidth}
+\\
 Oh, can't you see it baby\\
 You've got me goin' crazy\\
 \\
-Wherever you go\\
-Whatever you do\\
-I will be right here waiting for you\\
-Whatever it takes\\
-Or how my heart breaks\\
-I will be right here waiting for you 
+Wherever you go...
 
-\end{song2}
+\end{song1}
 
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -3205,7 +3191,7 @@ Now I’m strong enough to live without you...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{song1}{Karma chameleon}{Culture Club}
+\begin{song1}{Karma Chameleon}{Culture Club}
 
 There's a loving in your eyes all the way\\
 If I listen to your lies would you say\\
@@ -3436,6 +3422,712 @@ When I wanted sunshine I got rain\\
 And then I saw her face...
 
 \end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Brothers in Arms}{Dire Straits}
+
+These mist covered mountains\\
+Are a home now for me\\
+But my home is the lowlands\\
+And always will be\\
+Some day you'll return to\\
+Your valleys and your farms\\
+And you'll no longer burn\\
+To be brothers in arms\\
+\\
+Through these fields of destruction\\
+Baptism of fire\\
+I've witnessed your suffering\\
+As the battles raged higher\\
+And though they did hurt me so bad\\
+In the fear and alarm\\
+You did not desert me\\
+My brothers in arms\\
+\\
+There's so many different worlds\\
+So many different suns\\
+And we have just one world\\
+But we live in different ones\\
+\\
+Now the sun's gone to hell\\
+And the moon's riding high\\
+Let me bid you farewell\\
+Every man has to die\\
+But it's written in the starlight\\
+And every line on your palm\\
+We're fools to make war\\
+On our brothers in arms \\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song2}{We Didn't Start the Fire}{Billy Joel}
+('49)\\
+Harry Truman, Doris Day\\
+Red China, Johnnie Ray\\
+South Pacific, Walter Winchell\\
+Joe DiMaggio\\
+\\
+('50)\\
+Joe McCarthy, Richard Nixon\\
+Studebaker, television\\
+North Korea, South Korea\\
+Marilyn Monroe\\
+\\
+('51)\\
+Rosenbergs, H-bomb\\
+Sugar Ray, Panmunjom\\
+Brando, 'The King and I'\\
+And 'The Catcher in the Rye'\\
+\\
+('52)\\
+Eisenhower, vaccine\\
+England's got a new queen\\
+Marciano, Liberace\\
+Santayana goodbye\\
+\\
+We didn't start the fire\\
+It was always burning\\
+Since the world's been turning\\
+We didn't start the fire\\
+No we didn't light it\\
+But we tried to fight it\\
+\\
+('53)\\
+Joseph Stalin, Malenkov\\
+Nasser and Prokofiev\\
+Rockefeller, Campanella\\
+Communist Bloc\\
+\end{varwidth}
+\end{center}
+\columnbreak
+\begin{center}
+\begin{varwidth}{\columnwidth}
+('54)\\
+Roy Cohn, Juan Peron\\
+Toscanini, dacron\\
+Dien Bien Phu falls\\
+'Rock Around the Clock\\
+\\
+('55)\\
+Einstein, James Dean\\
+Brooklyn's got a winning team\\
+Davy Crockett, Peter Pan\\
+Elvis Presley, Disneyland\\
+\\
+('56)\\
+Bardot, Budapest\\
+Alabama, Krushchev\\
+Princess Grace, 'Peyton Place'\\
+Trouble in the Suez\\
+\\
+We didn't start the fire...\\
+\\
+('57)\\
+Little Rock, Pasternak\\
+Mickey Mantle, Kerouac\\
+Sputnik, Chou En-Lai\\
+'Bridge on the River Kwai'\\
+\\
+('58)\\
+Lebanon, Charlse de Gaulle\\
+California baseball\\
+Starkweather, homicide\\
+Children of thalidomide\\
+\\
+('59)\\
+Buddy Holly, 'Ben Hur'\\
+Space monkey, Mafia\\
+Hula hoops, Castro\\
+Edsel is a no-go\\
+\end{varwidth}
+\end{center}
+\columnbreak
+\begin{center}
+\begin{varwidth}{\columnwidth}
+('60)\\
+U-2, Syngman Rhee\\
+Payola and Kennedy\\
+Chubby Checker, 'Psycho'\\
+Belgians in the Congo\\
+\\
+We didn't start the fire...\\
+\\
+('61)\\
+Hemingway, Eichmann\\
+'Stranger in a Strange Land'\\
+Dylan, Berlin\\
+Bay of Pigs invasion\\
+\\
+('62)\\
+'Lawrence of Arabia'\\
+British Beatlemania\\
+Ole Miss, John Glenn\\
+Liston beats Patterson\\
+\\
+('63)\\
+Pope Paul, Malcolm X\\
+British politician sex\\
+JFK blown away\\
+What else do I have to say\\
+\\
+We didn't start the fire...\\
+\\
+('64-'89)\\
+Birth control, Ho Chi Minh\\
+Richard Nixon back again\\
+Moonshot, Woodstock\\
+Watergate, punk rock\\
+\\
+Begin, Reagan, Palestine\\
+Terror on the airline\\
+Ayatollah's in Iran\\
+Russians in Afghanistan\\
+\end{varwidth}
+\end{center}
+\columnbreak
+\begin{center}
+\begin{varwidth}{\columnwidth}
+'Wheel of Fortune', Sally Ride\\
+Heavy metal, suicide\\
+Foreign debts, homeless vets\\
+AIDS, crack, Bernie Goetz\\
+\\
+Hypodermics on the shores\\
+China's under martial law\\
+Rock and roller cola wars\\
+I can't take it anymore\\
+\\
+We didn't start the fire...
+
+\end{song2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{High On Emotion}{Chris De Burgh}
+
+Oh, my heart is spinning like a wheel\\
+Only she can see the way that I fell\\
+Eyes are holding right across the room\\
+High explosion coming out of the blue\\
+\\
+Well, here we go again\\
+Living in a world that others cannot share\\
+Yea, here we go again\\
+We are moving from a spark to a flame\\
+\\
+I am high, high, high on emotion\\
+High, high, high again\\
+High, high, high on emotion\\
+your love will find the way\\
+\\
+Oh, my heart is burning like a fire\\
+Closer now and she is breathing desire\\
+Take my hand and give it all your light\\
+Take command I am your rhythm tonight\\
+\\
+Well, here we go again...\\
+\\
+I am high, high, high on emotion...\\
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{I Just Died In Your Arms}{Cutting Crew}
+
+Oh I, I just died in your arms tonight\\
+It must have been something you said\\
+I just died in your arms tonight\\
+\\
+I keep looking for something I can't get\\
+Broken hearts lie all around me\\
+And I don't see an easy way to get out of this\\
+Her diary sits by the bedside table\\
+The curtains are closed, the cat's in the cradle\\
+Who would have thought that a boy like me could come to this\\
+\\
+Oh I, I just died in your arms tonight\\
+It must have been something you said\\
+I just died in your arms tonight\\
+Oh I, I just died in your arms tonight\\
+It must have been some kind of kiss\\
+I should have walked away, I should have walked away\\
+\\
+Is there any just cause for feeling like this?\\
+On the surface I'm a name on a list\\
+I've tried to be discreet, but then I'd blow it again\\
+I've lost and found, it's my final mistake\\
+She's loving by proxy, no give and all take\\
+Cause I've been thrilled to fantasy one too many times\\
+\\
+Oh I, I just died in your arms tonight...\\
+\\
+It was a long hot night\\
+And she made it easy, she made it feel right\\
+But now it's over, the moment has gone\\
+I followed my hands not my head, I know I was wrong\\
+\\
+Oh I, I just died in your arms tonight...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Money for Nothing}{Dire Straits}
+
+Now look at them yo-yo's, that's the way you do it\\
+You play the guitar on the MTV\\
+That ain't workin', that's the way you do it\\
+Money for nothin' and chicks for free\\
+Now that ain't workin', that's the way you do it\\
+Lemme tell, ya, them guys ain't dumb\\
+Maybe get a blister on your little finger\\
+Maybe get a blister on your thumb\\
+\\
+We gotta install microwave ovens\\
+Custom kitchen deliveries\\
+We gotta move these refrigerators\\
+We gotta move these colour TV's\\
+\\
+See the little faggot with the earring and the makeup\\
+Yeah, buddy, that's his own hair\\
+That little faggot got his own jet airplane\\
+That little faggot he's a millionaire\\
+\\
+We gotta install microwave ovens...\\
+\\
+I shoulda learned to play the guitar\\
+I shoulda learned to play them drums\\
+Look at that mama, she got it stickin' in the camera\\
+Man, we could have some fun\\
+And he's up there, what's that? Hawaiian noises?\\
+Bangin' on the bongoes like a chimpanzee\\
+That ain't workin', that's the way you do it\\
+Get your money for nothin' get your chicks for free\\
+\\
+We gotta install microwave ovens...
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Pride (In the Name of Love)}{U2}
+
+One man come in the name of love\\
+One man come and go\\
+One man come he to justify\\
+One man to overthrow\\
+\\
+In the name of love\\
+What more in the name of love\\
+In the name of love\\
+What more in the name of love\\
+\\
+One man caught on a barbed wire fence\\
+One man he resist\\
+One man washed on an empty beach\\
+One man betrayed with a kiss\\
+\\
+In the name of love\\
+What more in the name of love\\
+In the name of love\\
+What more in the name of love\\
+\\
+Early morning, April 4\\
+Shot rings out in the Memphis sky\\
+Free at last they’re took your life\\
+They’re could not take your pride\\
+\\
+In the name of love\\
+What more in the name of love\\
+In the name of love\\
+What more in the name of love\\
+In the name of love\\
+What more in the name of love\\
+In the name of love\\
+What more in the name of love\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Sultans of Swing}{Dire Straits}
+
+You get a shiver in the dark\\
+It's raining in the park but meantime\\
+South of the river you stop and you hold everything\\
+A band is blowing Dixie double four time\\
+You feel alright when you hear the music ring\\
+\\
+And now you step inside but you don't see too many faces\\
+Coming in out of the rain to hear the jazz go down\\
+Competition in other places\\
+Oh, but the horns they blowing that sound\\
+Way on down south, way on down south London town\\
+\\
+You check out Guitar George, he knows all the chords\\
+But he's strictly rhythm he doesn't wanna make it cry or sing\\
+Yes and an old guitar is all he can afford\\
+When he gets up under the lights to play his thing\\
+\\
+And Harry doesn't mind, if he doesn't make the scene\\
+He's got a daytime job, he's doing alright\\
+He can play the honky tonk like anything\\
+Saving it up for Friday night\\
+With the Sultans, with the Sultans of Swing\\
+\\
+And a crowd of young boys, they're fooling around in the corner\\
+Drunk and dressed in their best brown baggies and their platform soles\\
+They don't give a damn about any trumpet playing band\\
+It ain't what they call rock and roll\\
+And the Sultans, yeah, the Sultans play Creole\\
+Creole\\
+\\
+And then the man he steps right up to the microphone\\
+And says at last just as the time bell rings\\
+'Goodnight, now it's time to go home'\\
+And he makes it fast with one more thing\\
+'We are the Sultans, we are the Sultans of Swing'\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Young Turks}{Rod Stewart}
+
+Billy left his home with a dollar in his pocket and a head full of dreams\\
+He said somehow, some way, it's gotta get better than this\\
+Patti packed her bags, left a note for her mom, she was just seventeen\\
+There were tears in her eyes, when she kissed her little sister on goodbye\\
+\\
+They held each other tight as they drove on through the night\\
+They were so~exited\\
+We got just one shot of life, lets take it while were still not afraid\\
+Because life is so brief and time is a thief when you're undecided\\
+And like a fistful of sand, it can slip right through your hands\\
+\\
+Young hearts be free tonight\\
+Time is on your side\\
+Don't let them put you down, dont let 'em push you around\\
+Don't let 'em ever change your point of view\\
+\\
+Paradise was closed so they headed for the coast in a blissful manner\\
+They took a tworoom apartment that was jumping every night of the week\\
+Happiness was found in each others arms as expected, yeah\\
+Billy pierced his ears, drove a pickup like a lunatic, ooo-oh!\\
+\\
+Young hearts be free tonight...\\
+\\
+Billy wrote a letter back home to pattis parents tryin to explain\\
+He said were both real sorry that it had to turn out this way\\
+But there ain't no point in talking when there is nobody listning\\
+So we just ran away\\
+Patti gave birth to a ten pound baby boy, oh yeah!\\
+\\
+Young hearts be free tonight...\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Does Your Mother Know}{ABBA}
+
+You're so hot, teasing me\\
+So you're blue but I can't take a chance on a chick like you\\
+That's something I couldn't do\\
+There's that look in your eyes\\
+I can read in your face that your feelings are driving you wild\\
+Ah, but girl you're only a child\\
+\\
+Well, I can dance with you honey\\
+If you think it's funny\\
+Does your mother know that you're out?\\
+And I can chat with you baby\\
+Flirt a little maybe\\
+Does your mother know that you're out?\\
+\\
+Take it easy (take it easy)\\
+Better slow down girl\\
+That's no way to go\\
+Does your mother know?\\
+Take it easy (take it easy)\\
+Try to cool it girl\\
+Take it nice and slow\\
+Does your mother know?\\
+\\
+I can see what you want\\
+But you seem pretty young to be searching for that kind of fun\\
+So maybe I'm not the one\\
+Now you're so cute, I like your style\\
+And I know what you mean\\
+When you give me a flash of that smile (smile)\\
+But girl you're only a child\\
+\\
+Well, I can dance with you honey...\\
+\\
+Take it easy (take it easy)...\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Thank You For the Music}{ABBA}
+\begin{spacing}{0.98}
+I’m nothing special\\
+In fact, I’m a bit of a bore\\
+If I tell a joke\\
+You’ve probably heard it before\\
+But I have a talent\\
+A wonderful thing\\
+’Cause everyone listens\\
+When I start to sing\\
+I’m so grateful and proud\\
+All I want is to sing it out loud\\
+So I say\\
+\\
+Thank you for the music, the songs I’m singing\\
+Thanks for all the joy they’re bringing\\
+Who can live without it? I ask in all honesty\\
+What would life be? Without a song or a dance what are we?\\
+So I say thank you for the music, for giving it to me\\
+\\
+Mother says I was\\
+A dancer before I could walk\\
+She says I began\\
+To sing long before I could talk\\
+And I’ve often wondered\\
+How did it all start\\
+Who found out that nothing\\
+Can capture a heart\\
+Like a melody can\\
+Well, whoever it was, I’m a fan\\
+So I say\\
+\\
+Thank you for the music, the songs I’m singing...\\
+\\
+I’ve been so lucky\\
+I am the girl with golden hair\\
+I wanna sing it out to everybody\\
+What a joy, what a life, what a chance\\
+\\
+Thank you for the music, the songs I’m singing...
+\end{spacing}
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Waterloo}{ABBA}
+
+My, my, at Waterloo Napoleon did surrender\\
+Oh yeah, and I have met my destiny in quite a similar way\\
+The history book on the shelf\\
+Is always repeating itself\\
+\\
+Waterloo -- I was defeated, you won the war\\
+Waterloo -- promise to love you for ever more\\
+Waterloo -- couldn’t escape if I wanted to\\
+Waterloo -- knowing my fate is to be with you\\
+Oh, oh, oh, oh!\\
+Waterloo -- finally facing my Waterloo\\
+\\
+My, my, I tried to hold you back but you were stronger\\
+Oh yeah, and now it seems my only chance is skipping up the fight\\
+And how could I ever refuse?\\
+I feel like I win when I lose\\
+\\
+Waterloo -- I was defeated, you won the war\\
+Waterloo -- promise to love you for ever more\\
+Waterloo -- couldn’t escape if I wanted to\\
+Waterloo -- knowing my fate is to be with you\\
+Oh, oh, oh, oh!\\
+Waterloo -- finally facing my Waterloo\\
+\\
+So how could I ever refuse?\\
+I feel like I win when I lose\\
+\\
+Waterloo -- couldn’t escape if I wanted to\\
+Waterloo -- knowing my fate is to be with you\\
+Oh, oh, oh, oh!
+Waterloo -- finally facing my Waterloo\\
+Waterloo -- knowing my fate is to be with you\\
+Oh, oh, oh, oh!\\
+Waterloo -- finally facing my Waterloo\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Forever Young}{Alphaville}
+\begin{spacing}{0.98}
+Let's dance in style, let's dance for a while\\
+Heaven can wait, we're only watching the skies\\
+Hoping for the best but expecting the worst\\
+Are you going drop the bomb or not?\\
+\\
+Let us die young, let us live forever\\
+We don't have the power but we never say never\\
+Sitting in a sandpit, life is a short trip\\
+The music's for the sad men\\
+\\
+Can you imagine when this race is won?\\
+Turn our golden faces into the sun\\
+Praising our leaders we're getting in tune\\
+The music's played by the, the madman\\
+\\
+Forever young, I want to be forever young\\
+Do you really want to live forever?\\
+Forever or never\\
+Forever young, I want to be forever young\\
+Do you really want to live forever?\\
+Forever young\\
+\\
+Some are like water, some are like the heat\\
+Some are a melody and some are the beat\\
+Sooner or later they all will be gone\\
+Why don't they stay young?\\
+\\
+It's so hard to get old without a cause\\
+I don't want to perish like a fading horse\\
+Youth's like diamonds in the sun\\
+And diamonds are forever\\
+\\
+So many adventures couldn't happen today\\
+So many songs we forgot to play\\
+So many dreams are swinging out of the blue\\
+We let them come true\\
+\\
+Forever young, I want to be forever young...
+\end{spacing}
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song2}{Rasputin}{Boney M}
+
+There lived a certain man\\
+In Russia long ago\\
+He was big and strong\\
+In his eyes a flaming glow\\
+Most people looked at him\\
+With terror and with fear\\
+But to Moscow chicks\\
+He was such a lovely dear\\
+He could preach the Bible like a preacher\\
+Full of ecstasy and fire\\
+But he also was the kind of teacher\\
+Women would desire\\
+\\
+Ra, Ra, Rasputin\\
+Lover of the Russian queen\\
+There was a cat that really was gone\\
+Ra, Ra, Rasputin\\
+Russia's greatest love machine\\
+It was a shame how he carried on\\
+\\
+He ruled the Russian land\\
+And never mind the tsar\\
+But the kasachok he danced\\
+Really wunderbar\\
+In all affairs of state\\
+He was the man to please\\
+But he was real great\\
+When he had a girl to squeeze\\
+For the queen he was no wheeler dealer\\
+Though she heard the things he'd done\\
+She believed he was a holy healer\\
+Who would heal her son\\
+\\
+Ra, Ra, Rasputin...\\
+\end{varwidth}
+\end{center}
+\columnbreak
+\begin{center}
+\begin{varwidth}{\columnwidth}
+(But when his drinking\\
+And lusting and his hunger\\
+For power became known\\
+To more and more people\\
+The demands to do something\\
+About this outrageous\\
+Man became louder and louder...)\\
+\\
+This man just got to go!\\
+Declared his enemies\\
+But the ladies begged\\
+Don't you try to do it, please\\
+No doubt this Rasputin\\
+Had lots of hidden charms\\
+Though he was a brute\\
+They just fell into his arms\\
+Then one night\\
+Some men of higher~standing\\
+Set a trap, they're not to blame\\
+Come to visit us they kept demanding\\
+And he really came\\
+\\
+Ra, Ra, Rasputin\\
+Lover of the Russian queen\\
+They put some poison into his wine\\
+Ra, Ra, Rasputin\\
+Russia's greatest love machine\\
+He drank it all and he said 'I feel fine'\\
+\\
+Ra, Ra, Rasputin\\
+Lover of the Russian queen\\
+They didn't quit, they wanted his head\\
+Ra, Ra, Rasputin\\
+Russia's greatest love machine\\
+And so they shot him till he was dead
+
+\end{song2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{song1}{Miracle of Love}{Eurythmics}
+
+How many sorrows\\
+Do you try to hide\\
+In a world of illusion\\
+That's covering your mind?\\
+I'll show you something good\\
+\\
+Oh, I'll show you something good\\
+When you open your mind\\
+You'll discover the sign\\
+That there's something\\
+You're longing to find\\
+\\
+The miracle of love\\
+Will take away your pain\\
+When the miracle of love\\
+Comes your way again\\
+\\
+Cruel is the night\\
+That covers up your fears\\
+Tender is the one\\
+That wipes away your tears\\
+There must be a bitter breeze\\
+To make you sting so viciously\\
+They say the greatest coward\\
+Can hurt the most ferociously\\
+\\
+But I'll show you something good.\\
+Oh, I'll show you something good.\\
+If you open your heart\\
+You can make a new start\\
+When your crumbling world falls apart\\
+\\
+The miracle of love...\\
+
+\end{song1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

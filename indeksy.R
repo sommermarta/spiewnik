@@ -47,7 +47,7 @@ odst3 <- 1.5
 
 sink(file(stri_paste(katalog_ze_spiewnikiem, "\\piosenki.Rnw"), encoding="UTF-8"))
 
-cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\\linespread{0.1}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS UTWORÓW\\end{Huge}\\vspace{1cm}]")
+cat("\n\\documentclass[a4paper, 11pt]{extreport}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\\linespread{0.1}\n\n\\newgeometry{tmargin=1.5cm, bmargin=1.5cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS UTWORÓW\\end{Huge}\\vspace{1cm}]")
 
 for(i in 1:nrow(ramka2)){
      if(i != 1){
@@ -179,10 +179,13 @@ for(i in 1:nrow(ramka2)){
 
 ramka2 %>%  group_by(autor) %>% mutate(ile=n()) -> ramka2
 ile <- 0
+odst1 <- 6
+odst2 <- 5
+odst3 <- 1.5
 
 sink(file(stri_paste(katalog_ze_spiewnikiem, "\\autorzy.Rnw"), encoding="UTF-8"))
 
-cat("\n\\documentclass[a4paper]{report}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\\linespread{0.1}\n\n\\newgeometry{tmargin=2.5cm, bmargin=1cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS WYKONAWC\\IeC {\\'O}W\\end{Huge}\\vspace{1cm}]")
+cat("\n\\documentclass[a4paper, 11pt]{extreport}\n\n\\usepackage[T1]{fontenc}\n\\usepackage[polish]{babel}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{graphicx}\n\\usepackage{setspace}\n\\usepackage{savesym}\n\\savesymbol{arc}\n\\usepackage{color}\n\\usepackage{xcolor}\n\\usepackage{pict2e}\n\\usepackage{epstopdf}\n\\usepackage{geometry}\n\\usepackage{enumerate}\n\\usepackage{multicol}\n\\usepackage[strict]{changepage}\n\\usepackage{titlesec}\n\\usepackage{etoolbox}\n\\usepackage{tocloft}\n\\usepackage{imakeidx}\n\\usepackage{ifthen}\n\\usepackage{fancyhdr}\n\\usepackage{enumitem}\n\n\\setlist[enumerate]{itemsep=0mm}\n\\setlength{\\parindent}{0pt}\n\\setlength{\\parskip}{1ex plus 0.5ex minus 0.2ex} \n\\pagestyle{empty}\n\\linespread{0.1}\n\n\\newgeometry{tmargin=1.5cm, bmargin=1.5cm, lmargin=1.2cm, rmargin=1.2cm}{}{}\n\\setlength\\columnsep{50pt}\n\\begin{document}\n\\begin{multicols*}{2}[\\begin{Huge}INDEKS WYKONAWC\\IeC {\\'O}W\\end{Huge}\\vspace{1cm}]")
 
 for(i in 1:nrow(ramka2)){
   if(i != 1){
@@ -199,23 +202,40 @@ for(i in 1:nrow(ramka2)){
      ile <- ile+1
      
      if(ramka2$ile[i]==4 & ile==2){
-          cat("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{3mm}]\n\t\t\\itemsep0em\n")
+          cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=",
+                    odst1, 
+                    "pt, after=\\vspace{",
+                    odst2,
+                    "mm}]\n\t\t\\itemsep0em\n",
+                    sep=""))
      }
      if(ramka2$ile[i]>4 & ile >=2 & ramka2$ile[i]-ile > 2){
-          cat("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{1.5mm}]\n\t\t\\itemsep0em\n")
+          cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=",
+                    odst1, 
+                    "pt, after=\\vspace{",
+                    odst3,
+                    "mm}]\n\t\t\\itemsep0em\n",
+                    sep=""))
      } 
      if(ramka2$ile[i]>4 & ile >=2 & ramka2$ile[i]-ile == 2){
-          cat("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{3mm}]\n\t\t\\itemsep0em\n")
+          cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t\\begin{itemize}[topsep=",
+                    odst1, 
+                    "pt, after=\\vspace{",
+                    odst2,
+                    "mm}]\n\t\t\\itemsep0em\n",
+                    sep=""))
      } 
     } else{
         ile <- 1
         if(literka[i]==literka[i-1]){
-          jakiodstep <- ifelse(ramka2$ile[i]>=4, 1.5, 3)
+          jakiodstep <- ifelse(ramka2$ile[i]>=4, odst3, odst2)
           cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n\t", 
                     literka[i], 
                     reszta[i], 
                     sep=""), 
-              paste("\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{",
+              paste("\n\t\\begin{itemize}[topsep=",
+                    odst1,
+                    "pt, after=\\vspace{",
                     jakiodstep, 
                     "mm}]\n\t\t\\itemsep0em\n\t\t\\item[]", 
                     "\\textit{", 
@@ -226,14 +246,16 @@ for(i in 1:nrow(ramka2)){
               "\\\\\n")  
         } else{
           ile <- 1
-          jakiodstep <- ifelse(ramka2$ile[i]>=4, 1.5, 3)
+          jakiodstep <- ifelse(ramka2$ile[i]>=4, odst3, odst2)
           cat(paste("\t\\end{itemize}\n\\end{minipage}\n\\begin{minipage}{\\columnwidth}\n", 
                     "\t\\begin{Large}\\textbf{", 
                     literka[i], 
                     "}\\end{Large}", 
                     reszta[i], 
                     sep=""), 
-              paste("\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{", 
+              paste("\n\t\\begin{itemize}[topsep=",
+                    odst1,
+                    "pt, after=\\vspace{", 
                     jakiodstep, 
                     "mm}]",
                     "\n\t\t\\itemsep0em\n\t\t\\item[]", 
@@ -247,13 +269,15 @@ for(i in 1:nrow(ramka2)){
     }  
   } else{
       ile <- 1
-      jakiodstep <- ifelse(ramka2$ile[i]>=4, 1.5, 3)
+      jakiodstep <- ifelse(ramka2$ile[i]>=4, odst3, odst2)
       cat(paste("\\begin{minipage}{\\columnwidth}\n\t\\begin{Large}\\textbf{", 
                 literka[1], 
                 "}\\end{Large}", 
                 reszta[1], 
                 sep=""), 
-          paste("\n\t\\begin{itemize}[topsep=3pt, after=\\vspace{",
+          paste("\n\t\\begin{itemize}[topsep=",
+                odst1,
+                "pt, after=\\vspace{",
                 jakiodstep,
                 "mm}]\n\t\t\\itemsep0em\n\t\t\\item[]", 
                 "\\textit{", 
